@@ -1,0 +1,46 @@
+@media only screen and (max-width: 992px) {
+  .about-us .card-text {
+    position: relative;
+    justify-content: flex-start !important;
+    align-items: center;
+    padding: 15px !important;
+    padding-bottom: 25px !important;
+  }
+  .about-us .card-text .card-center .year {
+    display: none;
+  }
+  .about-us .card-text .card-center .title {
+    margin-top: 0 !important;
+  }
+  .about-us .card-img {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+  }
+  .about-us .card-img .year-media {
+    display: block;
+    font-size: 220px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    line-height: 0.8;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .about-us .card-img {
+    min-height: 240px;
+  }
+  .about-us .card-img .year-media {
+    font-size: 150px;
+  }
+}
+@media only screen and (max-width: 419px) {
+  .about-us .card-img {
+    min-height: 220px;
+  }
+  .about-us .card-img .year-media {
+    font-size: 120px;
+  }
+}
+
+/*# sourceMappingURL=about-us-media.css.map */
