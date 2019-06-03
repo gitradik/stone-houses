@@ -1,0 +1,53 @@
+.about-us {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.about-us .row {
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+.about-us .col {
+  padding: 0 !important;
+}
+.about-us h2 {
+  color: #d85328;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about-us .card-text {
+  background-color: #EBEBEB;
+  display: flex;
+  padding-bottom: 30px;
+}
+.about-us .card-text .card-center {
+  width: 100%;
+  max-width: 510px;
+}
+.about-us .card-text .card-center .year {
+  flex: 1;
+  font-size: 220px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  line-height: 0.8;
+}
+.about-us .card-text .card-center .title {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.about-us .card-text .card-center .subtitle {
+  margin-top: 15px;
+}
+.about-us .card-text .card-center .subtitle span {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+/*# sourceMappingURL=about-us.css.map */
