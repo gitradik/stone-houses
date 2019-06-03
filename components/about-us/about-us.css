@@ -1,5 +1,4 @@
 .about-us {
-  margin-top: 30px;
   font-family: "Roboto", sans-serif;
 }
 .about-us .row {
@@ -17,10 +16,36 @@
   margin-bottom: 20px;
   text-align: center;
 }
+.about-us .from-to span {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #d85328;
+  font-weight: 700;
+}
+.about-us .create-projects {
+  max-width: 360px;
+  margin-left: 30px;
+}
+.about-us .create-projects span {
+  text-transform: uppercase;
+  font-size: 90px;
+  color: #d85328;
+  font-weight: 700;
+}
+.about-us .create-projects span:first-child {
+  font-size: 35px;
+  font-weight: 700;
+  color: #414042;
+}
+.about-us .create-projects span:last-child {
+  font-weight: 500;
+  font-size: 19px;
+  text-transform: lowercase;
+  color: #414042;
+}
 .about-us .card-img {
   height: 100%;
-  min-height: 340px;
-  width: 100%;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,7 +63,7 @@
   max-width: 510px;
 }
 .about-us .card-text .card-center .year {
-  font-size: 220px;
+  font-size: 200px;
   color: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 900;
@@ -58,6 +83,57 @@
   font-size: 17px;
   font-weight: 300;
   line-height: 1.4;
+}
+
+@media only screen and (max-width: 991px) {
+  .about-us .card-text {
+    position: relative;
+    justify-content: flex-start !important;
+    align-items: center;
+    padding: 15px !important;
+    padding-bottom: 25px !important;
+  }
+  .about-us .card-text .card-center .year {
+    display: none;
+  }
+  .about-us .card-text .card-center .title {
+    margin-top: 0 !important;
+  }
+  .about-us .card-img {
+    display: flex;
+    min-height: 300px;
+    align-items: center;
+    padding-left: 25px;
+  }
+  .about-us .card-img .year-media {
+    display: block;
+    font-size: 220px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    line-height: 0.8;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .about-us .card-img {
+    min-height: 240px;
+  }
+  .about-us .card-img .year-media {
+    font-size: 150px;
+  }
+}
+@media only screen and (max-width: 419px) {
+  .about-us .card-img {
+    min-height: 220px;
+  }
+  .about-us .card-img .year-media {
+    font-size: 120px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .about-us .col {
+    order: 0 !important;
+  }
 }
 
 /*# sourceMappingURL=about-us.css.map */
