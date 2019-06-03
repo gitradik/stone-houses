@@ -1,6 +1,9 @@
 @import "../../utils/dataStyles"
 
 .services
+  font-family: 'Roboto', sans-serif
+  overflow: hidden
+  padding-bottom: 30px
 
   .title
     text-transform: uppercase
@@ -10,8 +13,28 @@
     text-align: center
 
   .service-item
+    display: flex
+    align-items: center
+    padding-left: 15px
+    margin-top: 25px
+
+    img
+      height: 74px
+      width: 74px
+      margin-right: 20px
 
     .item-text
 
       span
         display: block
+
+        &:first-child
+          text-transform: uppercase
+          font-size: 25px
+          font-weight: 500
+          line-height: 1.2
+          color: $textColor
+
+        &:last-child
+          font-size: 17px
+          line-height: 1.2

@@ -1,3 +1,8 @@
+.services {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
 .services .title {
   text-transform: uppercase;
   font-weight: 700;
@@ -5,8 +10,30 @@
   color: #414042;
   text-align: center;
 }
+.services .service-item {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  margin-top: 25px;
+}
+.services .service-item img {
+  height: 74px;
+  width: 74px;
+  margin-right: 20px;
+}
 .services .service-item .item-text span {
   display: block;
+}
+.services .service-item .item-text span:first-child {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #414042;
+}
+.services .service-item .item-text span:last-child {
+  font-size: 17px;
+  line-height: 1.2;
 }
 
 /*# sourceMappingURL=services.css.map */

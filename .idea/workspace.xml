@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/services/services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/services/services.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,20 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/services/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="225">
+              <caret line="71" column="126" selection-start-line="71" selection-start-column="126" selection-end-line="71" selection-end-column="126" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/services/services.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -82,8 +81,8 @@
         <option value="$PROJECT_DIR$/components/about-us/about-us.html" />
         <option value="$PROJECT_DIR$/components/about-us/about-us-media.sass" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/components/services/services.html" />
         <option value="$PROJECT_DIR$/components/services/services.sass" />
+        <option value="$PROJECT_DIR$/components/services/services.html" />
       </list>
     </option>
   </component>
@@ -110,6 +109,19 @@
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
               <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
@@ -189,12 +201,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559558564353</updated>
       <workItem from="1559558565442" duration="13288000" />
-      <workItem from="1559595341067" duration="5451000" />
+      <workItem from="1559595341067" duration="6267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18739000" />
+    <option name="totallyTimeSpent" value="19555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
@@ -264,13 +276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -316,24 +321,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/about-us/about-us.sass">
+    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="202">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/services/services.html">
+    <entry file="file://$PROJECT_DIR$/components/about-us/about-us.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/services/services.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/services/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="71" column="126" selection-start-line="71" selection-start-column="126" selection-end-line="71" selection-end-column="126" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
