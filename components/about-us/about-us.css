@@ -1,5 +1,6 @@
 .about-us {
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 .about-us .row {
   max-width: 100% !important;
@@ -16,6 +17,14 @@
   margin-bottom: 20px;
   text-align: center;
 }
+.about-us .from-to {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
 .about-us .from-to span {
   text-transform: uppercase;
   font-size: 30px;
@@ -25,20 +34,21 @@
 .about-us .create-projects {
   max-width: 360px;
   margin-left: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .about-us .create-projects span {
   text-transform: uppercase;
-  font-size: 90px;
-  color: #d85328;
+  font-size: 80px;
   font-weight: 700;
+  color: #d85328;
 }
 .about-us .create-projects span:first-child {
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 800;
   color: #414042;
 }
 .about-us .create-projects span:last-child {
-  font-weight: 500;
   font-size: 19px;
   text-transform: lowercase;
   color: #414042;
@@ -86,6 +96,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .about-us .from-to {
+    align-items: center;
+    padding-bottom: 20px;
+  }
   .about-us .card-text {
     position: relative;
     justify-content: flex-start !important;
@@ -120,6 +134,21 @@
   }
   .about-us .card-img .year-media {
     font-size: 150px;
+  }
+  .about-us .create-projects {
+    padding-top: 15px;
+  }
+  .about-us .create-projects span {
+    font-size: 70px;
+  }
+  .about-us .create-projects span:first-child {
+    font-size: 30px;
+  }
+  .about-us .create-projects span:last-child {
+    font-size: 16px;
+  }
+  .about-us .from-to {
+    text-align: center;
   }
 }
 @media only screen and (max-width: 419px) {

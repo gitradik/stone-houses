@@ -1,3 +1,12 @@
-
+.services .title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  color: #414042;
+  text-align: center;
+}
+.services .service-item .item-text span {
+  display: block;
+}
 
 /*# sourceMappingURL=services.css.map */
