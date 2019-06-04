@@ -27,6 +27,9 @@
 .first-scroll .choice .links a img {
   margin-right: 20px;
   margin-left: 20px;
+  height: 86px;
+  width: 86px;
+  border-radius: 100%;
 }
 .first-scroll .choice .links a span {
   font-size: 24px;
@@ -69,6 +72,18 @@
   width: 100%;
 }
 
+@media only screen and (min-width: 1200px) {
+  .first-scroll .choice .links a img {
+    height: auto;
+    width: 100%;
+    max-width: 86px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .first-scroll .choice .links a span {
+    font-size: 20px;
+  }
+}
 @media only screen and (max-width: 575px) {
   .first-scroll .choice .links a span {
     font-size: 19px;
