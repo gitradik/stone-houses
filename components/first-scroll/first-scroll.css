@@ -24,11 +24,14 @@
   transition: 0.15s;
   background-color: #EBEBEB;
 }
-.first-scroll .choice .links a img {
+.first-scroll .choice .links a .link-icon {
   margin-right: 20px;
   margin-left: 20px;
-  height: 86px;
-  width: 86px;
+  min-height: 86px;
+  min-width: 86px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 100%;
 }
 .first-scroll .choice .links a span {
