@@ -17,8 +17,10 @@
   margin-top: 25px;
 }
 .services .service-item img {
-  height: 74px;
-  width: 74px;
+  height: 100%;
+  width: 100%;
+  max-width: 74px;
+  max-height: 74px;
   margin-right: 20px;
 }
 .services .service-item .item-text span {

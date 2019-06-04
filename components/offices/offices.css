@@ -1,0 +1,129 @@
+.offices {
+  font-family: "Roboto", sans-serif;
+  padding: 30px 0;
+}
+.offices img {
+  margin-left: 10px;
+  height: 28px;
+  width: 19px;
+}
+.offices .back {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.offices .title {
+  line-height: 1.2;
+  text-align: center;
+}
+.offices .title span {
+  color: #414042;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+.offices .subtitle {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  text-align: right;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+.offices .subtitle span {
+  line-height: 44px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 5px;
+}
+.offices .subtitle span:last-child {
+  color: #d85328;
+}
+.offices .zone {
+  text-align: right;
+  position: relative;
+  z-index: 2;
+}
+.offices .zone span {
+  display: block;
+  color: #bababa;
+}
+.offices .address-time {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.offices .address-time span {
+  font-size: 17px;
+  line-height: 1.2;
+  color: white;
+}
+.offices .mail-to {
+  position: relative;
+  z-index: 2;
+  margin-top: 50px;
+}
+.offices .mail-to span {
+  font-size: 17px;
+  line-height: 1.2;
+  color: white;
+  transition: 0.15s;
+  border-bottom: 1px solid transparent;
+}
+.offices .mail-to img {
+  margin-right: 5px;
+}
+.offices .mail-to:hover {
+  text-decoration: none;
+}
+.offices .mail-to:hover span {
+  transition: 0.15s;
+  border-bottom-color: white !important;
+}
+.offices .go-office {
+  position: relative;
+  z-index: 2;
+  border: 2px solid #d85328;
+  display: inline-block;
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.offices .go-office span {
+  transition: 0.15s;
+  color: #d85328;
+}
+.offices .go-office img {
+  height: 28px;
+  width: 32px;
+}
+.offices .go-office:hover {
+  text-decoration: none;
+}
+.offices .go-office:hover span {
+  transition: 0.15s;
+  color: white;
+}
+
+.pl-70 {
+  padding-left: 10%;
+}
+
+.pr-70 {
+  padding-right: 10%;
+}
+
+@media only screen and (max-width: 991px) {
+  .offices .bg-col {
+    background-image: none !important;
+    background-color: black !important;
+  }
+}
+
+/*# sourceMappingURL=offices.css.map */
