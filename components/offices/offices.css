@@ -38,11 +38,21 @@
   line-height: 44px;
   text-transform: uppercase;
   font-weight: 900;
+  color: black;
   font-size: 24px;
   margin-left: 5px;
 }
 .offices .subtitle span:last-child {
   color: #d85328;
+}
+.offices .last-child {
+  background-color: #d85328;
+}
+.offices .last-child span {
+  color: white;
+}
+.offices .last-child span:last-child {
+  color: black;
 }
 .offices .zone {
   text-align: right;
@@ -71,7 +81,6 @@
 }
 .offices .mail-to span {
   font-size: 17px;
-  line-height: 1.2;
   color: white;
   transition: 0.15s;
   border-bottom: 1px solid transparent;
@@ -123,6 +132,19 @@
   .offices .bg-col {
     background-image: none !important;
     background-color: black !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .offices .go-office {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .offices .go-office img {
+    height: 17px;
+    width: 22px;
   }
 }
 

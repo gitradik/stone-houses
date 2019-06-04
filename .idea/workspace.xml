@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/dataStyles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dataStyles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices-media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/components/offices/offices.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="79" />
+              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -44,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/offices/offices.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+            <state relative-caret-position="192">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -53,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/offices/offices-media.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -147,6 +143,19 @@
             <path>
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
               <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="services.sass" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -189,23 +198,23 @@
       <updated>1559558564353</updated>
       <workItem from="1559558565442" duration="13288000" />
       <workItem from="1559595341067" duration="6419000" />
-      <workItem from="1559621176692" duration="7667000" />
+      <workItem from="1559621176692" duration="8852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27374000" />
+    <option name="totallyTimeSpent" value="28559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294702" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -213,7 +222,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32781458" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -319,22 +328,6 @@
     <entry file="file://$PROJECT_DIR$/assets/images/5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/services/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -349,10 +342,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/dataStyles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/services/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="71" column="84" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="84" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/offices/offices.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/offices/offices.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="79" />
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -362,24 +385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/dataStyles.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/offices/offices.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/offices/offices-media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
