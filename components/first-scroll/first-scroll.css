@@ -55,6 +55,9 @@
   margin-top: 30px;
   display: flex;
 }
+.first-scroll .home-link div {
+  max-width: 200px;
+}
 .first-scroll .home-link div img {
   height: auto;
   max-width: 100%;
