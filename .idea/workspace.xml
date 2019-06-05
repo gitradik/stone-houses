@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/b-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/offices/offices-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/offices/offices.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/offices/offices.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/offices/offices.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/dataStyles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dataStyles.sass" afterDir="false" />
-    </list>
+    <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +18,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="75">
+              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -78,7 +66,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" />
         <option value="$PROJECT_DIR$/components/offices/offices-media.sass" />
-        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" />
         <option value="$PROJECT_DIR$/components/services/services.html" />
         <option value="$PROJECT_DIR$/components/about-us/about-us.sass" />
         <option value="$PROJECT_DIR$/components/about-us/about-us-media.sass" />
@@ -88,6 +75,7 @@
         <option value="$PROJECT_DIR$/components/offices/offices.sass" />
         <option value="$PROJECT_DIR$/components/services/services.sass" />
         <option value="$PROJECT_DIR$/utils/dataStyles.sass" />
+        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.html" />
       </list>
     </option>
@@ -190,18 +178,18 @@
       <workItem from="1559558565442" duration="13288000" />
       <workItem from="1559595341067" duration="6419000" />
       <workItem from="1559621176692" duration="12029000" />
-      <workItem from="1559759310585" duration="4810000" />
+      <workItem from="1559759310585" duration="5123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36546000" />
+    <option name="totallyTimeSpent" value="36859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -214,7 +202,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32615894" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -289,13 +277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -392,10 +373,17 @@
     <entry file="file://$PROJECT_DIR$/assets/logo.tif">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
