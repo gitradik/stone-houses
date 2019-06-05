@@ -10,7 +10,8 @@
   font-size: 20px;
   line-height: 1.2;
   font-weight: 700;
-  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .first-scroll .choice .links a {
   display: flex;
@@ -44,7 +45,7 @@
 .first-scroll .choice .links a:hover {
   text-decoration: none;
   transition: 0.15s;
-  background-color: #d85328;
+  background-color: #1D88ED;
 }
 .first-scroll .choice .links a:hover span {
   transition: 0.4s;
@@ -55,12 +56,12 @@
   display: flex;
 }
 .first-scroll .home-link img {
-  height: 100px;
-  max-width: 100%;
+  height: auto;
+  max-width: 200px;
 }
 .first-scroll h1 {
   margin-top: 30px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   color: #414042;
   line-height: 1.2;
   font-size: 25px;
@@ -88,13 +89,24 @@
   }
 }
 @media only screen and (max-width: 575px) {
+  .first-scroll .choice h4 {
+    font-size: 20px;
+  }
+  .first-scroll .choice .links a {
+    padding: 5px 10px;
+    justify-content: space-between;
+  }
   .first-scroll .choice .links a span {
-    font-size: 19px;
+    font-size: 16px;
+  }
+  .first-scroll .choice .links a .link-icon {
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 419px) {
   .first-scroll .choice .links a span {
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
   }
 }
 

@@ -1,6 +1,6 @@
 .offices {
   font-family: "Roboto", sans-serif;
-  padding: 30px 0;
+  padding-top: 30px;
 }
 .offices img {
   margin-left: 10px;
@@ -19,6 +19,7 @@
 .offices .title {
   line-height: 1.2;
   text-align: center;
+  padding-bottom: 20px;
 }
 .offices .title span {
   color: #414042;
@@ -43,10 +44,10 @@
   margin-left: 5px;
 }
 .offices .subtitle span:last-child {
-  color: #d85328;
+  color: #1D88ED;
 }
 .offices .last-child {
-  background-color: #d85328;
+  background-color: #1D88ED;
 }
 .offices .last-child span {
   color: white;
@@ -98,7 +99,7 @@
 .offices .go-office {
   position: relative;
   z-index: 2;
-  border: 2px solid #d85328;
+  border: 2px solid #1D88ED;
   display: inline-block;
   padding: 10px 40px;
   font-weight: bold;
@@ -106,7 +107,7 @@
 }
 .offices .go-office span {
   transition: 0.15s;
-  color: #d85328;
+  color: #1D88ED;
 }
 .offices .go-office img {
   height: 28px;
@@ -135,6 +136,9 @@
   }
 }
 @media only screen and (max-width: 575px) {
+  .offices .title span {
+    font-size: 26px;
+  }
   .offices .go-office {
     font-size: 18px;
     padding-left: 10px;

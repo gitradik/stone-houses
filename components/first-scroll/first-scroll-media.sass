@@ -1,3 +1,5 @@
+@import "../../utils/dataStyles"
+
 @media only screen and (min-width: 1200px)
   .first-scroll
 
@@ -29,12 +31,20 @@
 
     .choice
 
+      h4
+        font-size: $subTitle575
+
       .links
 
         a
+          padding: 5px 10px
+          justify-content: space-between
 
           span
-            font-size: 19px
+            font-size: 16px
+
+          .link-icon
+            margin-left: 0
 
 @media only screen and (max-width: 419px)
   .first-scroll
@@ -46,5 +56,6 @@
         a
 
           span
-            font-size: 16px
+            font-size: 14px
+            letter-spacing: .05em
 

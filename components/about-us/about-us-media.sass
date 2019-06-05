@@ -1,3 +1,5 @@
+@import "../../utils/dataStyles"
+
 @media only screen and (max-width: 991px)
   .about-us
 
@@ -38,6 +40,21 @@
 @media only screen and (max-width: 575px)
   .about-us
 
+    .card-text
+
+      .card-center
+
+        .title
+          font-size: $subTitle575
+
+        .subtitle
+
+          span
+            font-size: $textAboutUS
+
+    h2
+      font-size: $titleSize575
+
     .card-img
       min-height: 240px
 
@@ -45,19 +62,25 @@
         font-size: 150px
 
     .create-projects
-      padding-top: 15px
+
+      &:last-child
+        padding-top: 15px
 
       span
         font-size: 70px
 
         &:first-child
-          font-size: 30px
+          font-size: $subTitle575
 
         &:last-child
           font-size: 16px
 
     .from-to
       text-align: center
+
+      span
+        font-size: $titleSize575
+
 
 @media only screen and (max-width: 419px)
   .about-us

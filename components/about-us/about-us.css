@@ -11,7 +11,7 @@
   padding: 0 !important;
 }
 .about-us h2 {
-  color: #d85328;
+  color: #1D88ED;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 36px;
@@ -29,7 +29,7 @@
 .about-us .from-to span {
   text-transform: uppercase;
   font-size: 30px;
-  color: #d85328;
+  color: #1D88ED;
   font-weight: 700;
 }
 .about-us .create-projects {
@@ -42,7 +42,7 @@
   text-transform: uppercase;
   font-size: 80px;
   font-weight: 700;
-  color: #d85328;
+  color: #1D88ED;
 }
 .about-us .create-projects span:first-child {
   font-size: 35px;
@@ -130,26 +130,38 @@
   }
 }
 @media only screen and (max-width: 575px) {
+  .about-us .card-text .card-center .title {
+    font-size: 20px;
+  }
+  .about-us .card-text .card-center .subtitle span {
+    font-size: 16px;
+  }
+  .about-us h2 {
+    font-size: 26px;
+  }
   .about-us .card-img {
     min-height: 240px;
   }
   .about-us .card-img .year-media {
     font-size: 150px;
   }
-  .about-us .create-projects {
+  .about-us .create-projects:last-child {
     padding-top: 15px;
   }
   .about-us .create-projects span {
     font-size: 70px;
   }
   .about-us .create-projects span:first-child {
-    font-size: 30px;
+    font-size: 20px;
   }
   .about-us .create-projects span:last-child {
     font-size: 16px;
   }
   .about-us .from-to {
     text-align: center;
+  }
+  .about-us .from-to span {
+    font-size: 26px;
   }
 }
 @media only screen and (max-width: 419px) {
