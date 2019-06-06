@@ -6,50 +6,296 @@
   max-width: 100%;
 }
 .first-scroll .choice h4 {
-  text-transform: uppercase;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.first-scroll .choice .links a {
+.first-scroll .choice .links label {
+  position: relative;
+  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 10px 0;
+  background-color: white;
   padding: 10px 18px;
   min-height: 107px;
-  border-radius: 15px;
-  border: 1px solid #ccc;
   transition: 0.15s;
-  background-color: #EBEBEB;
+  border: 2px solid #ccc;
 }
-.first-scroll .choice .links a .link-icon {
+.first-scroll .choice .links label input[type=radio] {
+  display: none;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.zero {
+  animation-name: drop-zero;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.one {
+  animation-name: drop-one;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.two {
+  animation-name: drop-two;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.three {
+  animation-name: drop-three;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.four {
+  animation-name: drop-four;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.five {
+  animation-name: drop-five;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.six {
+  animation-name: drop-six;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.seven {
+  animation-name: drop-seven;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+@keyframes explode {
+  0% {
+    opacity: 0;
+    transform: scale(4);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes drop-zero {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    height: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-2px);
+    height: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-one {
+  0% {
+    opacity: 0;
+    transform: rotate(-55deg) translate(-20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-55deg) translate(9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-two {
+  0% {
+    opacity: 0;
+    transform: translate(-20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-three {
+  0% {
+    opacity: 0;
+    transform: rotate(55deg) translate(-20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(55deg) translate(9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-four {
+  0% {
+    opacity: 0;
+    transform: rotate(55deg) translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(55deg) translate(-9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-five {
+  0% {
+    opacity: 0;
+    transform: translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-six {
+  0% {
+    opacity: 0;
+    transform: rotate(-55deg) translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-55deg) translate(-9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-seven {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+    height: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(2px);
+    height: 0px;
+    opacity: 0;
+  }
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet {
+  position: absolute;
+  opacity: 1;
+  animation-name: explode;
+  animation-duration: 0.35s;
+}
+.first-scroll .choice .links label .bullet {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  border: 5px solid white;
+  opacity: 0;
+  border-radius: 50%;
+}
+.first-scroll .choice .links label .bullet .line {
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+}
+.first-scroll .choice .links label .bullet .line.zero {
+  left: 11px;
+  top: -21px;
+  width: 2px;
+  height: 10px;
+}
+.first-scroll .choice .links label .bullet .line.one {
+  right: -7px;
+  top: -11px;
+  transform: rotate(-55deg) translate(-9px);
+}
+.first-scroll .choice .links label .bullet .line.two {
+  right: -20px;
+  top: 11px;
+  transform: translate(-9px);
+}
+.first-scroll .choice .links label .bullet .line.three {
+  right: -8px;
+  top: 35px;
+  transform: rotate(55deg) translate(-9px);
+}
+.first-scroll .choice .links label .bullet .line.four {
+  left: -8px;
+  top: -11px;
+  transform: rotate(55deg) translate(9px);
+}
+.first-scroll .choice .links label .bullet .line.five {
+  left: -20px;
+  top: 11px;
+  transform: translate(9px);
+}
+.first-scroll .choice .links label .bullet .line.six {
+  left: -8px;
+  top: 35px;
+  transform: rotate(-55deg) translate(9px);
+}
+.first-scroll .choice .links label .bullet .line.seven {
+  left: 11px;
+  bottom: -21px;
+  transform: translateY(-20px);
+  width: 2px;
+  height: 10px;
+}
+.first-scroll .choice .links label .link-icon {
   margin-right: 20px;
   margin-left: 20px;
-  min-height: 86px;
-  min-width: 86px;
+  min-height: 66px;
+  min-width: 66px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 100%;
 }
-.first-scroll .choice .links a span {
-  font-size: 24px;
+.first-scroll .choice .links label span {
+  font-size: 20px;
   letter-spacing: -1px;
   text-transform: uppercase;
   transition: 0.15s;
   color: #414042;
 }
-.first-scroll .choice .links a:hover {
+.first-scroll .choice .links label:hover {
   text-decoration: none;
   transition: 0.15s;
-  background-color: #1D88ED;
-}
-.first-scroll .choice .links a:hover span {
-  transition: 0.4s;
-  color: white;
+  border-color: #1D88ED;
 }
 .first-scroll .home-link {
   margin-top: 30px;
@@ -78,16 +324,58 @@
   margin: 30px 0;
   width: 100%;
 }
+.first-scroll .myFirstForm .form-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.first-scroll .myFirstForm .form-title span {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.first-scroll .myFirstForm input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #1D88ED;
+  transition: 0.15s;
+  box-shadow: none;
+}
+.first-scroll .myFirstForm input:focus {
+  transition: 0.15s;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+}
+.first-scroll .myFirstForm button {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  border: 2px solid #1D88ED;
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  text-transform: uppercase;
+  transition: 0.15s;
+}
 
 @media only screen and (min-width: 1200px) {
-  .first-scroll .choice .links a img {
+  .first-scroll .choice .links label img {
     height: auto;
     width: 100%;
     max-width: 86px;
   }
 }
 @media only screen and (max-width: 991px) {
-  .first-scroll .choice .links a span {
+  .first-scroll .choice .links label span {
     font-size: 20px;
   }
 }
@@ -95,19 +383,22 @@
   .first-scroll .choice h4 {
     font-size: 20px;
   }
-  .first-scroll .choice .links a {
+  .first-scroll .choice .links label {
     padding: 5px 10px;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
-  .first-scroll .choice .links a span {
+  .first-scroll .choice .links label span {
     font-size: 16px;
   }
-  .first-scroll .choice .links a .link-icon {
+  .first-scroll .choice .links label .link-icon {
+    margin-left: 0;
+  }
+  .first-scroll .choice .links label .bullet {
     margin-left: 0;
   }
 }
 @media only screen and (max-width: 419px) {
-  .first-scroll .choice .links a span {
+  .first-scroll .choice .links label span {
     font-size: 14px;
     letter-spacing: 0.05em;
   }

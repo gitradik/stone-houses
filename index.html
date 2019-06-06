@@ -23,13 +23,96 @@
     <link rel="stylesheet" href="components/about-us/about-us.css?v=0.2">
     <link rel="stylesheet" href="components/services/services.css?v=0.2">
     <link rel="stylesheet" href="components/offices/offices.css?v=0.2">
+    <link rel="stylesheet" href="components/weCreated/weCreated.css?v=0.2">
+    <link rel="stylesheet" href="components/advantages/advantages.css?v=0.2">
+    <link rel="stylesheet" href="components/construction-time/construction-time.css?v=0.2">
+
 
 </head>
     <script src="utils/includeHTML.js"></script>
 <body>
 
-    <div w3-include-html="components/first-scroll/first-scroll.html"></div>
+<div class="first-scroll">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <a class="home-link" href="/">
+                    <div>
+                        <img src="https://gitradik.github.io/stone-houses/assets/logo.jpg" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-12 text-center">
+                <h1>
+                    Индивидуальные решения строительства домов и коттеджей  под "Ключ"
+                </h1>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xl-4 text-center d-flex align-items-center">
+                <img src="https://gitradik.github.io/stone-houses/assets/images/1.jpg" alt="one">
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="choice">
+                    <h4>Выберите регион строительства:</h4>
+                    <form name="myFormRadio" class="links">
+                        <label class="labs">
+                            <input name="radioFirstScroll" type="radio" value="zp">
+                            <div class="bullet">
+                                <div class="line zero"></div>
+                                <div class="line one"></div>
+                                <div class="line two"></div>
+                                <div class="line three"></div>
+                                <div class="line four"></div>
+                                <div class="line five"></div>
+                                <div class="line six"></div>
+                                <div class="line seven"></div>
+                            </div>
+                            <div class="link-icon" style="background-image: url('https://gitradik.github.io/stone-houses/assets/images/zpLink.jpg')"></div>
+                            <span>Запорожье и Запорожская область</span>
+                        </label>
+                        <label class="labs">
+                            <input name="radioFirstScroll" type="radio" value="dnepr">
+                            <div class="bullet">
+                                <div class="line zero"></div>
+                                <div class="line one"></div>
+                                <div class="line two"></div>
+                                <div class="line three"></div>
+                                <div class="line four"></div>
+                                <div class="line five"></div>
+                                <div class="line six"></div>
+                                <div class="line seven"></div>
+                            </div>
+                            <div class="link-icon" style="background-image: url('https://gitradik.github.io/stone-houses/assets/images/dneprLink.jpg')"></div>
+                            <span>Днепропетровск и Днепропетровская область</span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <form class="myFirstForm">
+                    <div class="form-title">
+                       Заполните форму и получите <span>БЕСПЛАТНУЮ</span>
+                            консультацию специалиста на объекте
+                    </div>
+                    <input type="text" placeholder="Площадь">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Телефон">
+                    <button>Получить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <div w3-include-html="components/about-us/about-us.html"></div>
+    <div w3-include-html="components/advantages/advantages.html"></div>
+    <div w3-include-html="components/weCreated/weCreated.html"></div>
+    <div w3-include-html="components/construction-time/construction-time.html"></div>
     <div w3-include-html="components/services/services.html"></div>
     <div w3-include-html="components/offices/offices.html"></div>
 
@@ -40,6 +123,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="components/first-scroll/first-scroll.js"></script>
     <script>includeHTML();</script>
 </body>
 </html>

@@ -10,7 +10,6 @@
   .choice
 
     h4
-      text-transform: uppercase
       font-size: 20px
       line-height: 1.2
       font-weight: 700
@@ -19,30 +18,278 @@
 
     .links
 
-      a
+      label
+        position: relative
+        cursor: pointer
         display: flex
         align-items: center
-        justify-content: space-around
+        justify-content: space-between
         margin: 10px 0
+        background-color: white
         padding: 10px 18px
         min-height: 107px
-        border-radius: 15px
-        border: 1px solid #ccc
         transition: .15s
-        background-color: $backGray
+        border: 2px solid #ccc
+
+        //&:before
+          content: ""
+          width: 11px
+          height: 11px
+          background: white
+          position: absolute
+          left: 14px
+          top: 50%
+          transform: translateY(-50%)
+          box-sizing: border-box
+          border-radius: 50%
+
+        input[type="radio"]
+          display: none
+
+        input[type="radio"]:checked ~ .bullet .line
+          &.zero
+            animation-name: drop-zero
+            animation-delay: 0.100s
+            animation-duration: 0.9s
+            animation-fill-mode: forwards
+          &.one
+            animation-name: drop-one
+            animation-delay: 0.100s
+            animation-duration: 0.9s
+            animation-fill-mode: forwards
+          &.two
+            animation-name: drop-two
+            animation-delay: 0.100s
+            animation-duration: 0.9s
+            animation-fill-mode: forwards
+          &.three
+            animation-name: drop-three
+            animation-delay: 0.100s
+            animation-duration: 0.9s
+            animation-fill-mode: forwards
+          &.four
+            animation-name: drop-four
+            animation-delay: 0.100s
+            animation-duration: 0.9s
+            animation-fill-mode: forwards
+          &.five
+            animation-name: drop-five
+            animation-delay: 0.100s
+            animation-duration: 0.9s
+            animation-fill-mode: forwards
+          &.six
+            animation-name: drop-six
+            animation-delay: 0.100s
+            animation-duration: 0.9s
+            animation-fill-mode: forwards
+          &.seven
+            animation-name: drop-seven
+            animation-delay: 0.100s
+            animation-duration: 0.9s
+            animation-fill-mode: forwards
+
+            @keyframes explode
+              0%
+                opacity: 0
+                transform: scale(4)
+
+              60%
+                opacity: 1
+                transform: scale(0.5)
+
+              100%
+                opacity: 1
+                transform: scale(1)
+
+
+            @keyframes drop-zero
+              0%
+                opacity: 0
+                transform: translateY(20px)
+                height: 10px
+
+              20%
+                opacity: 1
+
+              100%
+                transform: translateY(-2px)
+                height: 0px
+                opacity: 0
+
+
+            @keyframes drop-one
+              0%
+                opacity: 0
+                transform: rotate(-55deg) translate(-20px)
+                width: 10px
+
+              20%
+                opacity: 1
+
+              100%
+                transform: rotate(-55deg) translate(9px)
+                width: 0px
+                opacity: 0
+
+
+            @keyframes drop-two
+              0%
+                opacity: 0
+                transform: translate(-20px)
+                width: 10px
+
+              20%
+                opacity: 1
+
+              100%
+                transform: translate(9px)
+                width: 0px
+                opacity: 0
+
+
+            @keyframes drop-three
+              0%
+                opacity: 0
+                transform: rotate(55deg) translate(-20px)
+                width: 10px
+
+              20%
+                opacity: 1
+
+              100%
+                transform: rotate(55deg) translate(9px)
+                width: 0px
+                opacity: 0
+
+
+            @keyframes drop-four
+              0%
+                opacity: 0
+                transform: rotate(55deg) translate(20px)
+                width: 10px
+
+              20%
+                opacity: 1
+
+              100%
+                transform: rotate(55deg) translate(-9px)
+                width: 0px
+                opacity: 0
+
+
+            @keyframes drop-five
+              0%
+                opacity: 0
+                transform: translate(20px)
+                width: 10px
+
+              20%
+                opacity: 1
+
+              100%
+                transform: translate(-9px)
+                width: 0px
+                opacity: 0
+
+
+            @keyframes drop-six
+              0%
+                opacity: 0
+                transform: rotate(-55deg) translate(20px)
+                width: 10px
+
+              20%
+                opacity: 1
+
+              100%
+                transform: rotate(-55deg) translate(-9px)
+                width: 0px
+                opacity: 0
+
+
+            @keyframes drop-seven
+              0%
+                opacity: 0
+                transform: translateY(-20px)
+                height: 10px
+
+              20%
+                opacity: 1
+
+              100%
+                transform: translateY(2px)
+                height: 0px
+                opacity: 0
+
+        input[type="radio"]:checked ~ .bullet
+          position: absolute
+          opacity: 1
+          animation-name: explode
+          animation-duration: 0.350s
+
+        .bullet
+          position: absolute
+          width: 70px
+          height: 70px
+          margin-left: 20px
+          border: 5px solid white
+          opacity: 0
+          border-radius: 50%
+
+          .line
+            position: absolute
+            width: 10px
+            height: 2px
+            background-color: #fff
+            opacity: 0
+            &.zero
+              left: 11px
+              top: -21px
+              width: 2px
+              height: 10px
+            &.one
+              right: -7px
+              top: -11px
+              transform: rotate(-55deg) translate(-9px)
+            &.two
+              right: -20px
+              top: 11px
+              transform: translate(-9px)
+            &.three
+              right: -8px
+              top: 35px
+              transform: rotate(55deg) translate(-9px)
+            &.four
+              left: -8px
+              top: -11px
+              transform: rotate(55deg) translate(9px)
+            &.five
+              left: -20px
+              top: 11px
+              transform: translate(9px)
+            &.six
+              left: -8px
+              top: 35px
+              transform: rotate(-55deg) translate(9px)
+            &.seven
+              left: 11px
+              bottom: -21px
+              transform: translateY(-20px)
+              width: 2px
+              height: 10px
 
         .link-icon
           margin-right: 20px
           margin-left: 20px
-          min-height: 86px
-          min-width: 86px
+          min-height: 66px
+          min-width: 66px
           background-size: cover
           background-position: center
           background-repeat: no-repeat
           border-radius: 100%
 
         span
-          font-size: 24px
+          font-size: 20px
           letter-spacing: -1px
           text-transform: uppercase
           transition: .15s
@@ -51,11 +298,7 @@
         &:hover
           text-decoration: none
           transition: .15s
-          background-color: $orangeColor
-
-          span
-            transition: .4s
-            color: white
+          border-color: $orangeColor
 
   .home-link
     margin-top: 30px
@@ -83,5 +326,49 @@
     border-top: none
     margin: 30px 0
     width: 100%
+
+  .myFirstForm
+
+    .form-title
+      font-size: 20px
+      line-height: 1.2
+      font-weight: 500
+      margin-top: $paddingTitle
+      margin-bottom: 10px
+      text-align: center
+
+      span
+        text-transform: uppercase
+        font-weight: 700
+
+    input
+      display: block
+      width: 100%
+      max-width: 300px
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 10px
+      text-align: center
+      padding: 5px
+      border: 2px solid $orangeColor
+      transition: .15s
+      box-shadow: none
+
+      &:focus
+        transition: .15s
+        box-shadow: 0 2px 7px 0 rgba(0,0,0,.2)
+
+    button
+      position: relative
+      display: block
+      margin-left: auto
+      margin-right: auto
+      padding: 10px 30px
+      border: 2px solid $orangeColor
+      width: 100%
+      max-width: 300px
+      background-color: white
+      text-transform: uppercase
+      transition: .15s
 
 @import "./first-scroll-media"

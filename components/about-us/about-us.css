@@ -3,12 +3,14 @@
   font-family: "Roboto", sans-serif;
   overflow: hidden;
 }
-.about-us .row {
-  max-width: 100% !important;
-  margin: 0 !important;
-}
-.about-us .col {
-  padding: 0 !important;
+.about-us .image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .about-us h2 {
   color: #1D88ED;
@@ -18,164 +20,12 @@
   margin-bottom: 20px;
   text-align: center;
 }
-.about-us .from-to {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-direction: column;
-}
-.about-us .from-to span {
-  text-transform: uppercase;
-  font-size: 30px;
-  color: #1D88ED;
-  font-weight: 700;
-}
-.about-us .create-projects {
-  max-width: 360px;
-  margin-left: 30px;
-  display: flex;
-  flex-direction: column;
-}
-.about-us .create-projects span {
-  text-transform: uppercase;
-  font-size: 80px;
-  font-weight: 700;
-  color: #1D88ED;
-}
-.about-us .create-projects span:first-child {
-  font-size: 35px;
-  font-weight: 800;
-  color: #414042;
-}
-.about-us .create-projects span:last-child {
-  font-size: 19px;
-  text-transform: lowercase;
-  color: #414042;
-}
-.about-us .card-img {
-  height: 100%;
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.about-us .card-img .year-media {
-  display: none;
-}
-.about-us .card-text {
-  background-color: #EBEBEB;
-  display: flex;
-  padding-bottom: 30px;
-}
-.about-us .card-text .card-center {
-  width: 100%;
-  max-width: 510px;
-}
-.about-us .card-text .card-center .year {
-  font-size: 200px;
-  color: #fff;
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  line-height: 0.8;
-}
-.about-us .card-text .card-center .title {
-  margin-top: 15px;
-  font-size: 25px;
+.about-us .subtitle {
+  font-size: 24px;
   font-weight: 500;
-  line-height: 1.2;
 }
-.about-us .card-text .card-center .subtitle {
-  margin-top: 15px;
-}
-.about-us .card-text .card-center .subtitle span {
-  display: inline-block;
-  font-size: 17px;
-  font-weight: 300;
-  line-height: 1.4;
-}
-
-@media only screen and (max-width: 991px) {
-  .about-us .from-to {
-    align-items: center;
-    padding-bottom: 20px;
-  }
-  .about-us .card-text {
-    position: relative;
-    justify-content: flex-start !important;
-    align-items: center;
-    padding: 15px !important;
-    padding-bottom: 25px !important;
-  }
-  .about-us .card-text .card-center .year {
-    display: none;
-  }
-  .about-us .card-text .card-center .title {
-    margin-top: 0 !important;
-  }
-  .about-us .card-img {
-    display: flex;
-    min-height: 300px;
-    align-items: center;
-    padding-left: 25px;
-  }
-  .about-us .card-img .year-media {
-    display: block;
-    font-size: 220px;
-    color: #fff;
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    line-height: 0.8;
-  }
-}
-@media only screen and (max-width: 575px) {
-  .about-us .card-text .card-center .title {
-    font-size: 20px;
-  }
-  .about-us .card-text .card-center .subtitle span {
-    font-size: 16px;
-  }
-  .about-us h2 {
-    font-size: 26px;
-  }
-  .about-us .card-img {
-    min-height: 240px;
-  }
-  .about-us .card-img .year-media {
-    font-size: 150px;
-  }
-  .about-us .create-projects:last-child {
-    padding-top: 15px;
-  }
-  .about-us .create-projects span {
-    font-size: 70px;
-  }
-  .about-us .create-projects span:first-child {
-    font-size: 20px;
-  }
-  .about-us .create-projects span:last-child {
-    font-size: 16px;
-  }
-  .about-us .from-to {
-    text-align: center;
-  }
-  .about-us .from-to span {
-    font-size: 26px;
-  }
-}
-@media only screen and (max-width: 419px) {
-  .about-us .card-img {
-    min-height: 220px;
-  }
-  .about-us .card-img .year-media {
-    font-size: 120px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .about-us .col {
-    order: 0 !important;
-  }
+.about-us .text-content {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=about-us.css.map */
