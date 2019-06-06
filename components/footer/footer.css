@@ -120,4 +120,13 @@ footer .myFirstForm button {
   transition: 0.15s;
 }
 
+@media only screen and (max-width: 575px) {
+  footer h2 {
+    font-size: 26px;
+  }
+  footer .txtWrap h4 {
+    font-size: 18px;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */
