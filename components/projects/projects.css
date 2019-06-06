@@ -1,0 +1,84 @@
+.projects {
+  padding: 30px 0;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+.projects h2 {
+  color: #1D88ED;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.projects .card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px 5px;
+  padding-bottom: 5px;
+}
+.projects .card h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.projects .card .image-block {
+  border: 2px solid #1D88ED;
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.projects .card .image-block .text {
+  border-top: 2px solid #1D88ED;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #414042;
+  border-radius: 4px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.projects .card a {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  border: 2px solid #1D88ED;
+  width: 100%;
+  max-width: 300px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.15s;
+  background-color: white;
+  color: #414042;
+}
+.projects .card a:hover {
+  text-decoration: none;
+  transition: 0.15s;
+  background-color: #1D88ED;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .projects .card {
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .projects h2 {
+    font-size: 26px;
+  }
+}
+
+/*# sourceMappingURL=projects.css.map */
