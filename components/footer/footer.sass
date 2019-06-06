@@ -1,0 +1,116 @@
+@import "../../utils/dataStyles"
+
+footer
+  font-family: 'Roboto', sans-serif
+  overflow: hidden
+  padding: 30px 0
+
+  h2
+    color: $orangeColor
+    text-transform: uppercase
+    font-weight: 700
+    font-size: 36px
+    margin-bottom: 20px
+    text-align: center
+
+footer
+  font-family: 'Roboto', sans-serif
+  overflow: hidden
+  padding-bottom: 30px
+  text-align: center
+
+  .txtWrap
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    h4
+      text-transform: uppercase
+    hr
+      border: 1px solid $orangeColor
+      width: 50%
+    a
+      margin-bottom: 10px
+      i
+        color: $orangeColor
+        font-size: 20px
+        margin-right: 10px
+    p
+      margin: 0
+      i
+        color: $orangeColor
+        font-size: 20px
+        margin-right: 10px
+    .social
+      i
+        font-size: 30px
+  iframe
+    width: 100%
+    height: 250px
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.1)
+
+  .myFirstForm
+    background-color: $orangeColor
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.1)
+    width: 100%
+    max-width: 300px
+    padding: 10px 5px
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: center
+
+    hr
+      width: 100%
+      height: 1px
+      background-color: rgba(255,255,255,.6)
+
+    .form-title
+      font-size: 20px
+      line-height: 1.2
+      font-weight: 500
+      color: white
+      margin-top: $paddingTitle
+      text-align: center
+      padding-bottom: 20px
+
+      span
+        display: block
+        font-weight: 500
+        font-size: 24px
+
+        &:last-child
+          font-size: 20px
+          font-weight: 700
+
+    input
+      display: block
+      width: 100%
+      max-width: 300px
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 10px
+      text-align: center
+      padding: 5px
+      border: 2px solid white
+      transition: .15s
+      box-shadow: none
+
+      &:focus
+        transition: .15s
+        box-shadow: 0 2px 7px 0 rgba(0,0,0,.2)
+
+    button
+      position: relative
+      display: block
+      margin-left: auto
+      margin-right: auto
+      padding: 10px 30px
+      border: 2px solid rgba(255,255,255,.6)
+      background-color: transparent
+      color: white
+      text-transform: uppercase
+      transition: .15s
+
+@import "./footer-media"

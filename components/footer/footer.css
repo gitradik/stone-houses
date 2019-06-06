@@ -1,0 +1,123 @@
+footer {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  padding: 30px 0;
+}
+footer h2 {
+  color: #1D88ED;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  padding-bottom: 30px;
+  text-align: center;
+}
+footer .txtWrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .txtWrap h4 {
+  text-transform: uppercase;
+}
+footer .txtWrap hr {
+  border: 1px solid #1D88ED;
+  width: 50%;
+}
+footer .txtWrap a {
+  margin-bottom: 10px;
+}
+footer .txtWrap a i {
+  color: #1D88ED;
+  font-size: 20px;
+  margin-right: 10px;
+}
+footer .txtWrap p {
+  margin: 0;
+}
+footer .txtWrap p i {
+  color: #1D88ED;
+  font-size: 20px;
+  margin-right: 10px;
+}
+footer .txtWrap .social i {
+  font-size: 30px;
+}
+footer iframe {
+  width: 100%;
+  height: 250px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+footer .myFirstForm {
+  background-color: #1D88ED;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .myFirstForm hr {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+footer .myFirstForm .form-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+footer .myFirstForm .form-title span {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+}
+footer .myFirstForm .form-title span:last-child {
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .myFirstForm input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid white;
+  transition: 0.15s;
+  box-shadow: none;
+}
+footer .myFirstForm input:focus {
+  transition: 0.15s;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+}
+footer .myFirstForm button {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.15s;
+}
+
+/*# sourceMappingURL=footer.css.map */
