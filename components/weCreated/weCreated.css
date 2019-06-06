@@ -1,5 +1,7 @@
 .we-created {
-  padding-top: 20px;
+  padding: 30px 0;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 .we-created .from-to {
   height: 100%;

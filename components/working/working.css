@@ -1,0 +1,84 @@
+.working {
+  padding: 30px 0;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+.working h2 {
+  color: #1D88ED;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.working .card {
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 0;
+  background-color: #1D88ED;
+  padding: 20px 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.working .card .img-container {
+  margin-left: auto;
+  margin-right: auto;
+  height: 54px;
+  width: 54px;
+}
+.working .card .img-container img {
+  height: auto;
+  max-width: 100%;
+}
+.working .card .number {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1D88ED;
+}
+.working .card .descr {
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 3px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+.working .card .descr span {
+  display: block;
+}
+.working .card .descr span:first-child {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.working .card .descr span:last-child {
+  font-size: 14px;
+}
+.working .card .descr span:last-child small {
+  font-size: 14px;
+  display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+  .working .card {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .working h2 {
+    font-size: 26px;
+  }
+}
+
+/*# sourceMappingURL=working.css.map */
