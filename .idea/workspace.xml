@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/about-us/about-us.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/offices/offices.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/offices/offices.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/dataStyles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dataStyles.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/includeHTML.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/includeHTML.js" afterDir="false" />
-    </list>
+    <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,18 +176,17 @@
       <workItem from="1559558565442" duration="13288000" />
       <workItem from="1559595341067" duration="6419000" />
       <workItem from="1559621176692" duration="12029000" />
-      <workItem from="1559759310585" duration="23663000" />
+      <workItem from="1559759310585" duration="23720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55399000" />
+    <option name="totallyTimeSpent" value="55456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,7 +199,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32615894" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32615894" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
