@@ -3,24 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/working/working-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/working/working-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/working/working.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/working/working.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/working/working.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/working/working.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/working/working.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/working/working.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/working/working.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/working/working.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/bootstrap-carauser.css" beforeDir="false" afterPath="$PROJECT_DIR$/utils/bootstrap-carauser.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/bootstrap-carauser.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/utils/bootstrap-carauser.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/bootstrap-carauser.sass" beforeDir="false" afterPath="$PROJECT_DIR$/utils/bootstrap-carauser.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/weCreated/weCreated.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/weCreated/weCreated.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/weCreated/weCreated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/weCreated/weCreated.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,47 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/working/working.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="74" column="37" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/working/working-media.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/working/working.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
+        <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="398" column="16" lean-forward="true" selection-start-line="398" selection-start-column="16" selection-end-line="398" selection-end-column="16" />
+            <state relative-caret-position="300">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/bootstrap-carauser.sass">
+        <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="162">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated-media.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -126,7 +96,6 @@
         <option value="$PROJECT_DIR$/jquery.js" />
         <option value="$PROJECT_DIR$/utils/start-slick.js" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.js" />
-        <option value="$PROJECT_DIR$/components/weCreated/weCreated.sass" />
         <option value="$PROJECT_DIR$/components/projects/projects-media.sass" />
         <option value="$PROJECT_DIR$/components/projects/projects.sass" />
         <option value="$PROJECT_DIR$/components/projects/projects.html" />
@@ -134,7 +103,6 @@
         <option value="$PROJECT_DIR$/components/footer/footer.html" />
         <option value="$PROJECT_DIR$/components/footer/footer.sass" />
         <option value="$PROJECT_DIR$/components/footer/footer-media.sass" />
-        <option value="$PROJECT_DIR$/components/weCreated/weCreated.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" />
         <option value="$PROJECT_DIR$/utils/bootstrap-carauser.sass" />
@@ -145,6 +113,8 @@
         <option value="$PROJECT_DIR$/components/working/working-media.sass" />
         <option value="$PROJECT_DIR$/components/working/working.sass" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" />
+        <option value="$PROJECT_DIR$/components/weCreated/weCreated.sass" />
+        <option value="$PROJECT_DIR$/components/weCreated/weCreated.html" />
       </list>
     </option>
   </component>
@@ -186,13 +156,7 @@
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
               <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="first-scroll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="working" type="462c0819:PsiDirectoryNode" />
+              <item name="weCreated" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
@@ -246,12 +210,12 @@
       <workItem from="1559785044452" duration="98000" />
       <workItem from="1559798030985" duration="17887000" />
       <workItem from="1559890745975" duration="59000" />
-      <workItem from="1559900496134" duration="10083000" />
+      <workItem from="1559900496134" duration="11819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83583000" />
+    <option name="totallyTimeSpent" value="85319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
@@ -270,7 +234,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32178217" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32119206" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -370,13 +334,6 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/about-us/about-us-media.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -432,13 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -508,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/footer/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -577,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/bootstrap-carauser.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/working/working-media.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -600,8 +536,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="398" column="16" lean-forward="true" selection-start-line="398" selection-start-column="16" selection-end-line="398" selection-end-column="16" />
+        <state relative-caret-position="252">
+          <caret line="401" column="28" selection-start-line="401" selection-start-column="28" selection-end-line="401" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/bootstrap-carauser.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated-media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
         </state>
       </provider>
     </entry>
