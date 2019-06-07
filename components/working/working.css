@@ -11,9 +11,15 @@
   margin-bottom: 20px;
   text-align: center;
 }
-.working .card {
+.working .card-wrap {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+.working .card-wrap .card {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
   border: none;
   border-radius: 0;
   background-color: #1D88ED;
@@ -22,50 +28,52 @@
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
   position: relative;
 }
-.working .card .img-container {
+.working .card-wrap .card .img-container {
   margin-left: auto;
   margin-right: auto;
   height: 54px;
   width: 54px;
+  margin-bottom: 20px;
 }
-.working .card .img-container img {
+.working .card-wrap .card .img-container img {
   height: auto;
   max-width: 100%;
 }
-.working .card .number {
+.working .card-wrap .card .number {
   position: absolute;
   top: -5px;
   left: -5px;
   background-color: white;
   border-radius: 100%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
-  height: 22px;
-  width: 22px;
+  height: 32px;
+  width: 32px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #1D88ED;
 }
-.working .card .descr {
-  margin-top: 15px;
+.working .card-wrap .card .descr {
+  min-height: 186px;
   border-radius: 4px;
   padding: 3px;
   background-color: white;
   text-align: center;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
 }
-.working .card .descr span {
+.working .card-wrap .card .descr span {
   display: block;
 }
-.working .card .descr span:first-child {
+.working .card-wrap .card .descr span:first-child {
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
 }
-.working .card .descr span:last-child {
+.working .card-wrap .card .descr span:last-child {
   font-size: 14px;
 }
-.working .card .descr span:last-child small {
+.working .card-wrap .card .descr span:last-child small {
   font-size: 14px;
   display: flex;
 }
@@ -78,6 +86,11 @@
 @media only screen and (max-width: 575px) {
   .working h2 {
     font-size: 26px;
+  }
+}
+@media only screen and (max-width: 459px) {
+  .working .card-wrap .card .descr {
+    min-height: auto;
   }
 }
 

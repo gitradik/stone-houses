@@ -5,11 +5,16 @@
   height: auto;
   max-width: 100%;
 }
+.first-scroll .choice {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .first-scroll .choice h4 {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 700;
-  margin-top: 20px;
   margin-bottom: 10px;
 }
 .first-scroll .choice .links label {
@@ -18,9 +23,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 0;
+  margin-top: 15px;
+  margin-bottom: 0;
   background-color: white;
-  padding: 10px 18px;
+  padding: 12px 18px;
   min-height: 107px;
   transition: 0.15s;
   border: 2px solid #ccc;
@@ -332,7 +338,13 @@
   margin: 30px 0;
   width: 100%;
 }
-.first-scroll .myFirstForm .form-title {
+.first-scroll .form-back {
+  padding: 10px;
+  display: flex;
+  height: 100%;
+  border: 2px solid #1D88ED;
+}
+.first-scroll .form-back .myFirstForm .form-title {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
@@ -340,11 +352,12 @@
   margin-bottom: 10px;
   text-align: center;
 }
-.first-scroll .myFirstForm .form-title span {
+.first-scroll .form-back .myFirstForm .form-title span {
+  color: black;
   text-transform: uppercase;
   font-weight: 700;
 }
-.first-scroll .myFirstForm input {
+.first-scroll .form-back .myFirstForm input {
   display: block;
   width: 100%;
   max-width: 300px;
@@ -357,12 +370,13 @@
   transition: 0.15s;
   box-shadow: none;
 }
-.first-scroll .myFirstForm input:focus {
+.first-scroll .form-back .myFirstForm input:focus {
   transition: 0.15s;
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
 }
-.first-scroll .myFirstForm button {
+.first-scroll .form-back .myFirstForm button {
   position: relative;
+  overflow: hidden;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -370,9 +384,30 @@
   border: 2px solid #1D88ED;
   width: 100%;
   max-width: 300px;
-  background-color: white;
+  color: white;
+  font-weight: 500;
   text-transform: uppercase;
   transition: 0.15s;
+  background-color: #1D88ED;
+}
+.first-scroll .form-back .myFirstForm button:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -40px;
+  bottom: 0;
+  transform: skewX(10deg);
+  width: 35px;
+  box-shadow: inset 0 5px 25px 0 rgba(255, 255, 255, 0.2);
+  animation: btnanim 2s infinite ease-in-out;
+}
+@keyframes btnanim {
+  0% {
+    transform: translateX(0) skewX(-10deg);
+  }
+  100% {
+    transform: translateX(500px);
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -382,9 +417,19 @@
     max-width: 86px;
   }
 }
+@media only screen and (max-width: 1199px) {
+  .first-scroll #carouselExampleIndicators {
+    margin-bottom: 30px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .first-scroll .choice .links label span {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .first-scroll .choice .links {
+    padding-bottom: 30px;
   }
 }
 @media only screen and (max-width: 575px) {

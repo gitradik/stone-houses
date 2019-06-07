@@ -13,63 +13,71 @@
     margin-bottom: 20px
     text-align: center
 
-  .card
+  .card-wrap
     display: flex
     justify-content: center
-    border: none
-    border-radius: 0
-    background-color: $orangeColor
-    padding: 20px 5px
-    padding-bottom: 5px
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2)
-    position: relative
+    flex-wrap: wrap
 
-    .img-container
-      margin-left: auto
-      margin-right: auto
-      height: 54px
-      width: 54px
-
-      img
-        height: auto
-        max-width: 100%
-
-    .number
-      position: absolute
-      top: -5px
-      left: -5px
-      background-color: white
-      border-radius: 100%
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.4)
-      height: 22px
-      width: 22px
+    .card
+      max-width: 200px
       display: flex
-      justify-content: center
-      align-items: center
-      color: $orangeColor
+      justify-content: space-between
+      border: none
+      border-radius: 0
+      background-color: $orangeColor
+      padding: 20px 5px
+      padding-bottom: 5px
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,.2)
+      position: relative
 
-    .descr
-      margin-top: 15px
-      border-radius: 4px
-      padding: 3px
-      background-color: white
-      text-align: center
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.4)
+      .img-container
+        margin-left: auto
+        margin-right: auto
+        height: 54px
+        width: 54px
+        margin-bottom: 20px
 
-      span
-        display: block
+        img
+          height: auto
+          max-width: 100%
 
-        &:first-child
-          font-size: 18px
-          font-weight: 500
-          text-transform: uppercase
+      .number
+        position: absolute
+        top: -5px
+        left: -5px
+        background-color: white
+        border-radius: 100%
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.4)
+        height: 32px
+        width: 32px
+        font-size: 18px
+        display: flex
+        justify-content: center
+        align-items: center
+        color: $orangeColor
 
-        &:last-child
-          font-size: 14px
+      .descr
+        min-height: 186px
+        border-radius: 4px
+        padding: 3px
+        background-color: white
+        text-align: center
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.4)
 
-          small
+        span
+          display: block
+
+          &:first-child
+            font-size: 18px
+            font-weight: 500
+            text-transform: uppercase
+
+          &:last-child
             font-size: 14px
-            display: flex
+
+            small
+              font-size: 14px
+              display: flex
 
 
 @import "./working-media"
