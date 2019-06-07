@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/weCreated/weCreated.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/working/working.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/working/working.html" afterDir="false" />
-    </list>
+    <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,17 +14,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +33,7 @@
       <find>vertical-center</find>
       <find>labs</find>
       <find>ключь</find>
+      <find>form-title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,8 +59,6 @@
         <option value="$PROJECT_DIR$/utils/start-slick.js" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.js" />
         <option value="$PROJECT_DIR$/components/projects/projects-media.sass" />
-        <option value="$PROJECT_DIR$/components/footer/footer.html" />
-        <option value="$PROJECT_DIR$/components/footer/footer.sass" />
         <option value="$PROJECT_DIR$/components/footer/footer-media.sass" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" />
         <option value="$PROJECT_DIR$/utils/bootstrap-carauser.sass" />
@@ -98,6 +80,8 @@
         <option value="$PROJECT_DIR$/components/construction-time/construction-time.html" />
         <option value="$PROJECT_DIR$/components/working/working.html" />
         <option value="$PROJECT_DIR$/components/weCreated/weCreated.html" />
+        <option value="$PROJECT_DIR$/components/footer/footer.html" />
+        <option value="$PROJECT_DIR$/components/footer/footer.sass" />
       </list>
     </option>
   </component>
@@ -199,16 +183,15 @@
       <workItem from="1559785044452" duration="98000" />
       <workItem from="1559798030985" duration="17887000" />
       <workItem from="1559890745975" duration="59000" />
-      <workItem from="1559900496134" duration="17364000" />
+      <workItem from="1559900496134" duration="17912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90864000" />
+    <option name="totallyTimeSpent" value="91412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2030303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -374,24 +357,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/footer/footer.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/footer/footer-media.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/footer/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -556,6 +525,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/footer/footer.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/footer/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
