@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/projects/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/projects/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/services/services-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services-media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/services/services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/weCreated/weCreated-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/weCreated/weCreated.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/reset.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/services/services.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -50,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/services/services-media.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -220,18 +210,18 @@
       <workItem from="1559785044452" duration="98000" />
       <workItem from="1559798030985" duration="17887000" />
       <workItem from="1559890745975" duration="59000" />
-      <workItem from="1559900496134" duration="15983000" />
+      <workItem from="1559900496134" duration="16274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89483000" />
+    <option name="totallyTimeSpent" value="89774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2030303" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2030303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -559,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/services/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/services/services.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -578,8 +558,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/services/services-media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/services/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

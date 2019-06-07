@@ -70,6 +70,9 @@
   .services .service-item {
     min-height: 183px;
   }
+  .services .min-h-40 {
+    min-height: 140px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .services .display-lg-flex {
