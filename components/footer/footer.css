@@ -69,6 +69,7 @@ footer .myFirstForm {
 }
 footer .myFirstForm hr {
   width: 100%;
+  margin-top: 0;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.6);
 }
@@ -79,11 +80,15 @@ footer .myFirstForm .form-title {
   color: white;
   margin-top: 20px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 footer .myFirstForm .form-title span {
   display: block;
   font-weight: 500;
+  font-size: 19px;
+  padding: 3px 0;
+}
+footer .myFirstForm .form-title span:first-child {
   font-size: 24px;
 }
 footer .myFirstForm .form-title span:last-child {

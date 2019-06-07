@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/services/services-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/services/services.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/services/services.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/construction-time/construction-time.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/weCreated/weCreated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/working/working.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/working/working.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,31 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/services/services.html">
+        <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/services/services.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/services/services-media.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -67,6 +49,7 @@
       <find>container</find>
       <find>vertical-center</find>
       <find>labs</find>
+      <find>ключь</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,23 +81,23 @@
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" />
         <option value="$PROJECT_DIR$/utils/bootstrap-carauser.sass" />
         <option value="$PROJECT_DIR$/components/construction-time/construction-time-media.sass" />
-        <option value="$PROJECT_DIR$/components/construction-time/construction-time.html" />
-        <option value="$PROJECT_DIR$/components/working/working.html" />
         <option value="$PROJECT_DIR$/components/working/working-media.sass" />
         <option value="$PROJECT_DIR$/components/working/working.sass" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" />
         <option value="$PROJECT_DIR$/components/weCreated/weCreated.sass" />
-        <option value="$PROJECT_DIR$/components/weCreated/weCreated.html" />
         <option value="$PROJECT_DIR$/reset.css" />
         <option value="$PROJECT_DIR$/components/weCreated/weCreated-media.sass" />
-        <option value="$PROJECT_DIR$/components/construction-time/construction-time.sass" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/components/projects/projects.html" />
         <option value="$PROJECT_DIR$/utils/slowScrolling.js" />
         <option value="$PROJECT_DIR$/components/projects/projects.sass" />
-        <option value="$PROJECT_DIR$/components/services/services.html" />
         <option value="$PROJECT_DIR$/components/services/services.sass" />
         <option value="$PROJECT_DIR$/components/services/services-media.sass" />
+        <option value="$PROJECT_DIR$/components/services/services.html" />
+        <option value="$PROJECT_DIR$/components/construction-time/construction-time.sass" />
+        <option value="$PROJECT_DIR$/components/construction-time/construction-time.html" />
+        <option value="$PROJECT_DIR$/components/working/working.html" />
+        <option value="$PROJECT_DIR$/components/weCreated/weCreated.html" />
       </list>
     </option>
   </component>
@@ -156,7 +139,13 @@
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
               <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="weCreated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="working" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
@@ -210,18 +199,18 @@
       <workItem from="1559785044452" duration="98000" />
       <workItem from="1559798030985" duration="17887000" />
       <workItem from="1559890745975" duration="59000" />
-      <workItem from="1559900496134" duration="16274000" />
+      <workItem from="1559900496134" duration="17364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89774000" />
+    <option name="totallyTimeSpent" value="90864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2030303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2030303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -413,30 +402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time-media.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/working/working.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="74" column="37" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -468,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -486,13 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -524,17 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/projects/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/projects/projects.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -546,6 +490,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/services/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -563,13 +514,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/services/services.html">
+    <entry file="file://$PROJECT_DIR$/components/projects/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/working/working.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
         </state>
       </provider>
     </entry>
