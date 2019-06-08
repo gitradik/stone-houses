@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="" />
+    <list default="true" id="f70d5fc2-1a9c-42c3-bcfe-3293a945ec05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/advantages/certificate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/advantages/saw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/advantages/setting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/advantages/tracking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/build.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/construction-time/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/construction-time/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/construction-time/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/construction-time/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dneprLink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/geo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/moscow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/blag_gr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/inzh_seti_gr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/ogr_konstr_gr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/otdel_gr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/proekt_gr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/reconstr_gr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/stroit_gr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/services/stroymat_gr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/spb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/working/brickwall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/working/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/working/handshake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/working/pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/working/telephone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/zpLink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about-us/about-us-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about-us/about-us-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about-us/about-us-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about-us/about-us.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantages/advantages-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantages/advantages-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantages/advantages-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantages/advantages.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantages/advantages.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantages/advantages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/advantages/advantages.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/construction-time/construction-time.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/offices/offices.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/projects-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/projects-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/projects-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/projects.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/projects.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/projects.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/services/services-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/services/services-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/services/services-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/services/services.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/services/services.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/services/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/services/services.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/weCreated/weCreated.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/working/working-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/working/working-media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/working/working-media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/working/working.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/working/working.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/working/working.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/working/working.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/bootstrap-carauser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/bootstrap-carauser.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/bootstrap-carauser.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dataStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dataStyles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dataStyles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/includeHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/slowScrolling.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,15 +136,43 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file:///tmp/fz3temp-2/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="150" selection-start-line="16" selection-start-column="150" selection-end-line="16" selection-end-column="150" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turnkey-construction/components/first-scroll/first-scroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="41" column="93" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Sass File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,6 +184,7 @@
       <find>labs</find>
       <find>ключь</find>
       <find>form-title</find>
+      <find>activ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -42,25 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/utils/dataContent.js" />
-        <option value="$PROJECT_DIR$/components/offices/offices-media.sass" />
-        <option value="$PROJECT_DIR$/components/offices/offices.html" />
-        <option value="$PROJECT_DIR$/components/offices/offices.sass" />
-        <option value="$PROJECT_DIR$/utils/includeHTML.js" />
-        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.html" />
-        <option value="$PROJECT_DIR$/components/about-us/about-us-media.sass" />
-        <option value="$PROJECT_DIR$/components/about-us/about-us.sass" />
-        <option value="$PROJECT_DIR$/utils/dataStyles.sass" />
-        <option value="$PROJECT_DIR$/components/advantages/advantages.sass" />
-        <option value="$PROJECT_DIR$/components/advantages/advantages-media.sass" />
-        <option value="$PROJECT_DIR$/components/about-us/about-us.html" />
-        <option value="$PROJECT_DIR$/components/advantages/advantages.html" />
-        <option value="$PROJECT_DIR$/jquery.js" />
-        <option value="$PROJECT_DIR$/utils/start-slick.js" />
-        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.js" />
-        <option value="$PROJECT_DIR$/components/projects/projects-media.sass" />
-        <option value="$PROJECT_DIR$/components/footer/footer-media.sass" />
-        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass" />
         <option value="$PROJECT_DIR$/utils/bootstrap-carauser.sass" />
         <option value="$PROJECT_DIR$/components/construction-time/construction-time-media.sass" />
         <option value="$PROJECT_DIR$/components/working/working-media.sass" />
@@ -69,19 +201,49 @@
         <option value="$PROJECT_DIR$/components/weCreated/weCreated.sass" />
         <option value="$PROJECT_DIR$/reset.css" />
         <option value="$PROJECT_DIR$/components/weCreated/weCreated-media.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/components/projects/projects.html" />
         <option value="$PROJECT_DIR$/utils/slowScrolling.js" />
         <option value="$PROJECT_DIR$/components/projects/projects.sass" />
         <option value="$PROJECT_DIR$/components/services/services.sass" />
         <option value="$PROJECT_DIR$/components/services/services-media.sass" />
         <option value="$PROJECT_DIR$/components/services/services.html" />
-        <option value="$PROJECT_DIR$/components/construction-time/construction-time.sass" />
-        <option value="$PROJECT_DIR$/components/construction-time/construction-time.html" />
         <option value="$PROJECT_DIR$/components/working/working.html" />
         <option value="$PROJECT_DIR$/components/weCreated/weCreated.html" />
         <option value="$PROJECT_DIR$/components/footer/footer.html" />
         <option value="$PROJECT_DIR$/components/footer/footer.sass" />
+        <option value="$PROJECT_DIR$/components/construction-time/construction-time.html" />
+        <option value="$PROJECT_DIR$/components/construction-time/construction-time.sass" />
+        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/first-scroll/first-scroll.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/construction-time/construction-time-media.sass" />
+        <option value="/tmp/fz3temp-2/page-turnkey-construction.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/about-us/about-us.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/advantages/advantages.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/construction-time/construction-time.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/working/working.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/projects/projects.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/weCreated/weCreated.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/footer/footer.php" />
+        <option value="/tmp/fz3temp-2/main.js" />
+        <option value="$PROJECT_DIR$/turnkey-construction/utils/slowScrolling.js" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/services/services.php" />
+        <option value="/tmp/fz3temp-2/services.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/utils/teleOrder.js" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/first-scroll/telegram.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/telegram.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/utils/dataStyles.sass" />
+        <option value="$PROJECT_DIR$/turnkey-construction/utils/loader.css" />
+        <option value="/tmp/fz3temp-2/telegram.js" />
+        <option value="$PROJECT_DIR$/turnkey-construction/utils/telegram.js" />
+        <option value="$PROJECT_DIR$/turnkey-construction/utils/telegram.php" />
+        <option value="/tmp/fz3temp-2/first-scroll.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/first-scroll/first-scroll.php" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/first-scroll/first-scroll.sass" />
+        <option value="$PROJECT_DIR$/turnkey-construction/components/first-scroll/first-scroll.js" />
+        <option value="/tmp/fz3temp-2/functions.php" />
       </list>
     </option>
   </component>
@@ -112,28 +274,25 @@
             <path>
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
               <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="turnkey-construction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
               <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
+              <item name="turnkey-construction" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
               <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
+              <item name="turnkey-construction" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="weCreated" type="462c0819:PsiDirectoryNode" />
+              <item name="first-scroll" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
               <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="working" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stone-houses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stone-houses" type="462c0819:PsiDirectoryNode" />
+              <item name="turnkey-construction" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -148,7 +307,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -183,17 +342,20 @@
       <workItem from="1559785044452" duration="98000" />
       <workItem from="1559798030985" duration="17887000" />
       <workItem from="1559890745975" duration="59000" />
-      <workItem from="1559900496134" duration="17912000" />
+      <workItem from="1559900496134" duration="18458000" />
+      <workItem from="1560011200658" duration="70000" />
+      <workItem from="1560011522663" duration="17813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91412000" />
+    <option name="totallyTimeSpent" value="109841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2030303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22575757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,7 +368,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32119206" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32013202" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -218,236 +380,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/dataContent.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="547" column="10" selection-start-line="547" selection-start-column="1" selection-end-line="547" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/offices/offices.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/moscow.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/offices/offices-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/offices/offices.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/offices/offices.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/logo.tif" />
-    <entry file="file://$PROJECT_DIR$/assets/logo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/includeHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/about-us/about-us-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/advantages/advantages-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/about-us/about-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/advantages/advantages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/utils/start-slick.js" />
-    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/about-us/about-us.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/advantages/advantages.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/projects/projects-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/footer/footer-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/working/working-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/working/working.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="401" column="28" selection-start-line="401" selection-start-column="28" selection-end-line="401" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/bootstrap-carauser.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/weCreated/weCreated-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#label#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#label#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/dataStyles.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="378" column="1" selection-start-line="378" selection-start-column="1" selection-end-line="378" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/projects/projects.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -494,26 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/working/working.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -539,6 +451,290 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/construction-time/construction-time-media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="87" column="82" lean-forward="true" selection-start-line="87" selection-start-column="82" selection-end-line="87" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#label#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#label#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/construction-time/construction-time-media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/page-shpaklevka.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/page-done.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="true" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/page-turnkey-construction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="12" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/about-us/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/advantages/advantages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/construction-time/construction-time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/working/working.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/projects/projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/weCreated/weCreated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/footer/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/first-scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/services/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/aboutadv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/utils/teleOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/first-scroll/telegram.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/telegram.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/utils/dataStyles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/utils/loader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/telegram.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/tele_order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/telegram.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/utils/telegram.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/utils/telegram.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/first-scroll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/first-scroll/first-scroll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="110" column="60" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/first-scroll/first-scroll.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="381" column="20" selection-start-line="381" selection-start-column="7" selection-end-line="381" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/utils/slowScrolling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="41" column="93" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-construction/components/first-scroll/first-scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///tmp/fz3temp-2/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="150" selection-start-line="16" selection-start-column="150" selection-end-line="16" selection-end-column="150" />
         </state>
       </provider>
     </entry>

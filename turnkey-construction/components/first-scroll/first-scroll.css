@@ -1,0 +1,506 @@
+.first-scroll {
+  font-family: "Roboto", sans-serif !important;
+}
+.first-scroll img {
+  height: auto;
+  max-width: 100%;
+}
+.first-scroll .choice {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.first-scroll .choice h4 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.first-scroll .choice .links label {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 0;
+  background-color: white;
+  padding: 12px 18px;
+  min-height: 107px;
+  transition: 0.15s;
+  border: 2px solid #ccc;
+}
+.first-scroll .choice .links label .link-icon {
+  margin-right: 20px;
+  margin-left: 20px;
+  min-height: 66px;
+  min-width: 66px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+.first-scroll .choice .links label span {
+  font-size: 20px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  transition: 0.15s;
+  color: #414042;
+}
+.first-scroll .choice .links label:hover {
+  text-decoration: none;
+  transition: 0.15s;
+  border-color: #1D88ED;
+}
+.first-scroll .choice .links label input[type=radio] {
+  display: none;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.zero {
+  animation-name: drop-zero;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.one {
+  animation-name: drop-one;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.two {
+  animation-name: drop-two;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.three {
+  animation-name: drop-three;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.four {
+  animation-name: drop-four;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.five {
+  animation-name: drop-five;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.six {
+  animation-name: drop-six;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet .line.seven {
+  animation-name: drop-seven;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+}
+@keyframes explode {
+  0% {
+    opacity: 0;
+    transform: scale(4);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes drop-zero {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    height: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-2px);
+    height: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-one {
+  0% {
+    opacity: 0;
+    transform: rotate(-55deg) translate(-20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-55deg) translate(9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-two {
+  0% {
+    opacity: 0;
+    transform: translate(-20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-three {
+  0% {
+    opacity: 0;
+    transform: rotate(55deg) translate(-20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(55deg) translate(9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-four {
+  0% {
+    opacity: 0;
+    transform: rotate(55deg) translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(55deg) translate(-9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-five {
+  0% {
+    opacity: 0;
+    transform: translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-six {
+  0% {
+    opacity: 0;
+    transform: rotate(-55deg) translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-55deg) translate(-9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+@keyframes drop-seven {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+    height: 10px;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(2px);
+    height: 0px;
+    opacity: 0;
+  }
+}
+.first-scroll .choice .links label input[type=radio]:checked ~ .bullet {
+  position: absolute;
+  opacity: 1;
+  animation-name: explode;
+  animation-duration: 0.35s;
+}
+.first-scroll .choice .links label .bullet {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  border: 5px solid white;
+  opacity: 0;
+  border-radius: 50%;
+}
+.first-scroll .choice .links label .bullet .line {
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+}
+.first-scroll .choice .links label .bullet .line.zero {
+  left: 11px;
+  top: -21px;
+  width: 2px;
+  height: 10px;
+}
+.first-scroll .choice .links label .bullet .line.one {
+  right: -7px;
+  top: -11px;
+  transform: rotate(-55deg) translate(-9px);
+}
+.first-scroll .choice .links label .bullet .line.two {
+  right: -20px;
+  top: 11px;
+  transform: translate(-9px);
+}
+.first-scroll .choice .links label .bullet .line.three {
+  right: -8px;
+  top: 35px;
+  transform: rotate(55deg) translate(-9px);
+}
+.first-scroll .choice .links label .bullet .line.four {
+  left: -8px;
+  top: -11px;
+  transform: rotate(55deg) translate(9px);
+}
+.first-scroll .choice .links label .bullet .line.five {
+  left: -20px;
+  top: 11px;
+  transform: translate(9px);
+}
+.first-scroll .choice .links label .bullet .line.six {
+  left: -8px;
+  top: 35px;
+  transform: rotate(-55deg) translate(9px);
+}
+.first-scroll .choice .links label .bullet .line.seven {
+  left: 11px;
+  bottom: -21px;
+  transform: translateY(-20px);
+  width: 2px;
+  height: 10px;
+}
+.first-scroll .choice .links .activeLinkChoice {
+  transition: 0.15s;
+  background-color: #1D88ED;
+  border-color: #1D88ED;
+}
+.first-scroll .choice .links .activeLinkChoice span {
+  color: white;
+}
+.first-scroll .home-link {
+  margin-top: 30px;
+  display: flex;
+}
+.first-scroll .home-link div {
+  max-width: 200px;
+}
+.first-scroll .home-link div img {
+  height: auto;
+  max-width: 100%;
+}
+.first-scroll h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #414042;
+  line-height: 1.2;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.first-scroll hr {
+  background-color: #EFEFEF;
+  height: 7px;
+  border-top: none;
+  margin: 30px 0;
+  width: 100%;
+}
+.first-scroll .form-back {
+  padding: 10px;
+  display: flex;
+  height: 100%;
+  border: 2px solid #1D88ED;
+}
+.first-scroll .form-back .myFirstForm {
+  position: relative;
+  z-index: 20;
+}
+.first-scroll .form-back .myFirstForm .form-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.first-scroll .form-back .myFirstForm .form-title span {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.first-scroll .form-back .myFirstForm input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+  transition: 0.15s;
+  border: 2px solid #1D88ED;
+  box-shadow: none;
+}
+.first-scroll .form-back .myFirstForm input:focus {
+  transition: 0.15s;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+}
+.first-scroll .form-back .myFirstForm .invalid-phone {
+  transition: 0.15s;
+  border-color: red;
+}
+.first-scroll .form-back .myFirstForm button {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  border: 2px solid #1D88ED;
+  width: 100%;
+  max-width: 300px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.15s;
+  background-color: #1D88ED;
+}
+.first-scroll .form-back .myFirstForm button:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -20px;
+  bottom: 0;
+  transform: skewX(-20deg);
+  width: 20px;
+  box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.2);
+  animation: btnanim 2s infinite ease-in-out;
+}
+@keyframes btnanim {
+  0% {
+    transform: translateX(0) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(500px);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .first-scroll .choice .links label img {
+    height: auto;
+    width: 100%;
+    max-width: 86px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .first-scroll #carouselExampleIndicators {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .first-scroll .choice .links label span {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .first-scroll .choice .links {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .first-scroll .choice h4 {
+    font-size: 20px;
+  }
+  .first-scroll .choice .links label {
+    padding: 5px 10px;
+    justify-content: flex-start;
+  }
+  .first-scroll .choice .links label span {
+    font-size: 16px;
+  }
+  .first-scroll .choice .links label .link-icon {
+    margin-left: 0;
+  }
+  .first-scroll .choice .links label .bullet {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 419px) {
+  .first-scroll .choice .links label span {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+  }
+}
+.carousel {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.carousel a span:first-child {
+  height: 30px;
+  width: 30px;
+}
+.carousel .carousel-indicators li {
+  color: black !important;
+}
+.carousel .carousel-inner {
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item div {
+  height: 100%;
+  min-height: 300px;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 575px) {
+  .carousel .carousel-inner .carousel-item div {
+    height: 200px;
+    min-width: 300px;
+  }
+}
+
+/*# sourceMappingURL=first-scroll.css.map */
