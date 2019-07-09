@@ -6,33 +6,33 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-xl-4 pb-5 pb-xl-0">
-                <div class="first-scroll-slick slick-slider" >
+                <div class="first-scroll-slick slick-slider" data-aos="fade-right" data-aos-offset="30" data-aos-duration="1000">
                     <div>
-                        <div class="my-slick-item"
+                        <a href="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/slider/home-1.png" class="my-slick-item" data-toggle="lightbox" data-gallery="example-gallery"
                              style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/slider/home-1.png')">
 
-                        </div>
+                        </a>
                     </div>
                     <div>
-                        <div class="my-slick-item"
+                        <a href="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/slider/home-2.png" class="my-slick-item" data-toggle="lightbox" data-gallery="example-gallery"
                              style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/slider/home-2.png')">
 
-                        </div>
+                        </a>
                     </div>
                     <div>
-                        <div class="my-slick-item"
+                        <a href="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/slider/home-3.png" class="my-slick-item" data-toggle="lightbox" data-gallery="example-gallery"
                              style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/slider/home-3.png')">
 
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 col-xl-4">
                 <div class="choice">
-                    <h4>Выберите регион строительства:</h4>
+                    <h4 data-aos="fade-down" data-aos-offset="30" data-aos-duration="1000">Выберите регион строительства:</h4>
                     <form name="myFormRadio" class="links">
-                        <label onclick="onClickRadio('zp')" class="labs activeLinkChoice">
+                        <label data-aos="fade-up" data-aos-offset="30" data-aos-duration="1000" onclick="onClickRadio('zp')" class="labs activeLinkChoice">
                             <input checked id="radioZpId" type="radio" value="zp">
                             <div class="bullet">
                                 <div class="line zero"></div>
@@ -47,7 +47,7 @@
                             <div class="link-icon" style="background-image: url('<?= get_template_directory_uri() ?>/turnkey-construction/assets/images/zpLink.jpg')"></div>
                             <span>Запорожье и Запорожская область</span>
                         </label>
-                        <label onclick="onClickRadio('dnepr')" class="labs">
+                        <label data-aos="fade-up" data-aos-offset="100" data-aos-duration="1500" data-aos="fade-up" data-aos-duration="1000" onclick="onClickRadio('dnepr')" class="labs">
                             <input id="radioDneprId" type="radio" value="dnepr">
                             <div class="bullet">
                                 <div class="line zero"></div>
@@ -67,7 +67,7 @@
             </div>
             <div class="col-md-6 col-xl-4">
                 <div class="form-back">
-                    <form onkeypress="onClickLocation('Первый скролл')" name="myFirstForm" class="myFirstForm telegram" method="POST">
+                    <form data-aos="fade-left" data-aos-offset="30" data-aos-duration="1000" onkeypress="onClickLocation('Первый скролл')" name="myFirstForm" class="myFirstForm telegram" method="POST">
                         <div id="loader_id" class="back-loader d-none">
                             <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
                         </div>

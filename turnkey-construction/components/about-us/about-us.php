@@ -6,10 +6,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="title">Кто мы такие</h2>
+                <h2 class="title" data-aos="fade-right" data-aos-offset="30" data-aos-duration="1000">Кто мы такие</h2>
             </div>
             <div class="col-md-8 d-flex align-items-center">
-                <div>
+                <div data-aos="fade-right" data-aos-offset="30" data-aos-duration="1000">
                 <div class="subtitle">
                     На рынке ремонтных и строительных работ уже более 7 лет
                 </div>
@@ -18,8 +18,8 @@
                 </div>
                 </div>
             </div>
-            <div class="col-md-4 pb-2">
-                <div class="image" style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/build.jpg')">
+            <div class="col-md-4 pb-2" data-aos="fade-left" data-aos-offset="30" data-aos-duration="1500">
+                <div class="image" style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/build.jpg')" >
 
                 </div>
             </div>

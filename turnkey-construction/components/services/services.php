@@ -6,10 +6,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="title">наши услуги</div>
+                <div data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000" class="title">наши услуги</div>
             </div>
             <div class="col-md-6">
-                <div class="row">
+                <div class="row" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
                     <div class="col-md-12 text-center">
                         <h4>Строительство</h4>
                     </div>
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="col-md-6 ptop-sm-5">
-                <div class="row">
+                <div class="row" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
                     <div class="col-md-12 text-center">
                         <h4>Ремонтные работы</h4>
                     </div>

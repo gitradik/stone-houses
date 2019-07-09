@@ -6,12 +6,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>
+                <h2 data-aos="fade-left" data-aos-offset="30" data-aos-duration="1000" >
                     Наши преимущества
                 </h2>
             </div>
             <div class="col col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="card">
+                <div data-aos-offset="30" data-aos-duration="1000" data-aos="zoom-out" class="card" data-aos="fade-left" data-aos-offset="30" data-aos-duration="1000">
                     <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/advantages/tracking.png" alt="tracking">
                     <div class="my-text">
                         <span>
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="card">
+                <div data-aos-offset="30" data-aos-duration="1000" data-aos="zoom-out" class="card">
                     <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/advantages/saw.png" alt="saw">
                     <div class="my-text">
                         <span>
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="col col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="card">
+                <div data-aos-offset="30" data-aos-duration="1000" data-aos="zoom-out" class="card">
                     <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/advantages/certificate.png" alt="certificate">
                     <div class="my-text">
                         <span>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="col col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="card">
+                <div data-aos-offset="30" data-aos-duration="1000" data-aos="zoom-out" class="card">
                     <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/advantages/setting.png" alt="setting">
                     <div class="my-text">
                         <span>

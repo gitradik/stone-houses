@@ -1,4 +1,4 @@
-/*
+
 const inputPhoneFooterFrom = document.getElementById('input_phone_footer_from_id');
 const submitBtnFooterForm = document.getElementById('submit_btn_footer_form_id');
 const regexAllPhoneUkraine = /^\+?3?8?(0\d{9})$/;
@@ -21,4 +21,4 @@ function onChangePhoneFooter(value) {
     } else {
         submitBtnFooterForm.disabled = true;
     }
-}*/
+}

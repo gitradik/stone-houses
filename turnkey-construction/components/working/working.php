@@ -6,11 +6,11 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <h2>Как мы работаем</h2>
+                <h2 data-aos="fade-left" data-aos-offset="30" data-aos-duration="1000">Как мы работаем</h2>
             </div>
             <div class="card-wrap">
                 <div class="col-auto">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1000">
                         <div class="number">1</div>
                         <div class="img-container">
                             <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/telephone.png" alt="telephone">
@@ -24,7 +24,7 @@
 
                 <div class="col-auto">
 
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1000">
                         <div class="number">2</div>
                         <div class="img-container">
                             <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/pencil.png" alt="pencil">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-auto">
 
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1000">
                         <div class="number">3</div>
                         <div class="img-container">
                             <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/edit.png" alt="edit">
@@ -52,10 +52,10 @@
                 </div>
                 <div class="col-auto">
 
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1000">
                         <div class="number">4</div>
                         <div class="img-container">
-                            <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/images/working/brickwall.png" alt="brickwall">
+                            <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/brickwall.png" alt="brickwall">
                         </div>
                         <div class="descr">
                             <span>строительные работы</span>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-auto">
 
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1000">
                     <div class="number">5</div>
                     <div class="img-container">
                         <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/handshake.png" alt="handshake">

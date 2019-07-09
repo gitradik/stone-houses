@@ -1,3 +1,7 @@
+.page {
+  overflow: hidden;
+}
+
 .title-scroll {
   min-height: 100vh;
   background-image: url("../../assets/images/background-home.png");
@@ -159,6 +163,17 @@
   width: 100%;
 }
 
+.modal .modal-dialog {
+  max-width: 360px;
+}
+.modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 16px;
+}
+.modal .modal-dialog .modal-content .modal-body .form-back .myFirstForm .form-title {
+  text-align: center;
+  margin: 20px auto;
+}
+
 @media only screen and (min-width: 1200px) {
   .first-scroll .choice .links label img {
     height: auto;
@@ -175,6 +190,19 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .title-scroll {
+    min-height: auto;
+  }
+  .title-scroll .text-center h1 {
+    font-size: 40px;
+  }
+  .title-scroll .text-center .center-list {
+    margin-top: 70px;
+  }
+  .title-scroll .text-center ul h3 {
+    font-size: 22px;
+  }
+
   .first-scroll .choice .links label span {
     font-size: 20px;
   }
@@ -185,6 +213,28 @@
   }
 }
 @media only screen and (max-width: 575px) {
+  .title-scroll {
+    min-height: auto;
+  }
+  .title-scroll .button-down i {
+    font-size: 32px;
+  }
+  .title-scroll .text-center {
+    padding-top: 0;
+  }
+  .title-scroll .text-center .bottom-offer {
+    margin-bottom: 0;
+  }
+  .title-scroll .text-center h1 {
+    font-size: 32px;
+  }
+  .title-scroll .text-center .center-list {
+    margin-top: 40px;
+  }
+  .title-scroll .text-center ul h3 {
+    font-size: 18px;
+  }
+
   .first-scroll .first-scroll-slick .my-slick-item {
     min-height: 230px;
   }
@@ -206,6 +256,31 @@
   }
 }
 @media only screen and (max-width: 419px) {
+  .title-scroll {
+    min-height: auto;
+  }
+  .title-scroll .button-down i {
+    font-size: 28px;
+  }
+  .title-scroll .text-center {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-scroll .text-center .bottom-offer {
+    margin-bottom: 0;
+  }
+  .title-scroll .text-center h1 {
+    font-size: 24px;
+  }
+  .title-scroll .text-center .center-list {
+    margin-top: 40px;
+  }
+  .title-scroll .text-center ul h3 {
+    font-size: 16px;
+  }
+
   .first-scroll .first-scroll-slick .my-slick-item {
     min-height: 200px;
   }

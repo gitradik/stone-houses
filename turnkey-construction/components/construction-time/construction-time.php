@@ -6,11 +6,11 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 text-center">
-                <h2>Ориентировочные сроки по строительству дома 150 - 250 м2</h2>
+                <h2 data-aos="fade-right" data-aos-offset="30" data-aos-duration="1000">Ориентировочные сроки по строительству дома 150 - 250 м2</h2>
             </div>
 
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 pb-2">
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1000">
                     <div class="img-container"
                          style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/construction-time/1.jpg')"
                     ></div>
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 pb-2">
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1000">
                     <div class="img-container"
                          style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/construction-time/3.jpg')"
                     ></div>
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-sm-12 mt-sm-10 col-md-4 col-lg-4 col-xl-2 pb-2">
-                <div class="card mh-auto">
+                <div class="card mh-auto" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1000">
                     <div class="img-container"
                          style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/construction-time/2.png')"
                     ></div>
@@ -47,7 +47,7 @@
 
 
             <div class="col-xl-6 pb-2">
-                <div class="card-box">
+                <div class="card-box" data-aos="zoom-in" data-aos-offset="30" data-aos-duration="1100">
 
                     <div class="card border-bottom-0">
                         <div class="img-container"

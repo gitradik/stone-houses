@@ -6,20 +6,20 @@
     <div class="container-fluid pt-3 pb-5">
         <div class="row">
             <div class="col-sm-12 col-lg-4">
-                <div class="from-to">
+                <div class="from-to" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
                     <span>С 2015 по начало</span>
                     <span>2019 года мы:</span>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                <div class="create-projects">
+                <div class="create-projects" data-aos="zoom-out" data-aos-offset="100" data-aos-duration="1000">
                     <span class="tit">построили домов под ключ</span>
                     <span>> 50</span>
                     <span>проектов частных домов по индивидуальным параметрам наших клиентов</span>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                <div class="create-projects">
+                <div class="create-projects" data-aos="zoom-out" data-aos-offset="100" data-aos-duration="1000">
                     <span class="tit">выполнили отделочных работ</span>
                     <span>> 110</span>
                     <span>частных домов по индивидуальным проектам, проектам от Заказчика, а также по проектам из нашего авторского каталога</span>
