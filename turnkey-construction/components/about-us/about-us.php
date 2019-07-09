@@ -2,7 +2,7 @@
     <?php include 'about-us.css'; ?>
 </style>
 
-<div class="about-us">
+<div id="about-link" class="about-us">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="col-md-4 pb-2">
-                <div class="image" style="background-image: url('https://gitradik.github.io/stone-houses/assets/images/build.jpg')">
+                <div class="image" style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/build.jpg')">
 
                 </div>
             </div>

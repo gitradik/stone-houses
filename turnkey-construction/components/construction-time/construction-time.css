@@ -45,6 +45,7 @@
   margin-top: auto;
 }
 .construction-time .card button {
+  cursor: pointer;
   position: relative;
   display: block;
   margin-bottom: 10px;

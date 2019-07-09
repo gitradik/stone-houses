@@ -1,0 +1,108 @@
+.slick-slider
+  display: flex
+  height: 100%
+  width: 100%
+  position: relative
+
+  .slick-dots
+
+    li
+
+      button
+
+        &:before
+          top: -33px
+          border-radius: 100%
+          font-size: 12px
+          transition: .2s
+          color: #11fff9
+          box-shadow: 0 0 1px 0 #65edea
+
+    .slick-active
+      transition: .2s
+
+  .arrow-slider
+    outline: none
+    width: 12%
+    position: absolute
+    border: none
+    top: 0
+    bottom: 0
+    transition: .2s
+    background: rgba(0,0,0,.1)
+
+    i
+      color: rgba(255,255,255,.7)
+      font-size: 24px
+
+    &:hover
+      transition: .2s
+      background: rgba(0,0,0,.3)
+
+      i
+        transition: .2s
+        color: white
+
+  .prev-arrow
+    left: 0
+    z-index: 20
+
+  .next-arrow
+    right: 0
+    z-index: 20
+
+  .slick-list
+    display: flex
+    width: 100%
+
+    .slick-track
+      display: flex
+      width: 100%
+
+      .slick-slide
+        display: flex
+        flex: 1
+        height: 100%
+        width: 100%
+
+  .my-slick-item
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    height: auto
+    min-width: 100%
+
+@media only screen and (max-width: 991.98px)
+  .slick-slider
+
+    .slick-dots
+
+      li
+
+        button
+
+          &:before
+
+      .slick-active
+
+    .arrow-slider
+
+      i
+
+      &:hover
+
+        i
+
+    .prev-arrow
+
+    .next-arrow
+
+    .slick-list
+
+      .slick-track
+
+        .slick-slide
+
+          .my-slick-item
+            min-height: 300px
+

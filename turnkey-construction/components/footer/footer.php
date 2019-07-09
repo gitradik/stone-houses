@@ -2,7 +2,7 @@
     <?php include 'footer.css'; ?>
 </style>
 
-<footer>
+<footer id="cont-link">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -27,16 +27,20 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2251.9958809591835!2d35.13081481004564!3d47.837858984276295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0YPQuy4g0J_QsNGC0YDQuNC-0YLQuNGH0LXRgdC60LDRjyA1OC4g0LMu0JfQsNC_0L7RgNC-0LbRjNC1!5e0!3m2!1suk!2sua!4v1555579543754!5m2!1suk!2sua" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="col-lg-4 mb-3 mb-lg-0 d-flex justify-content-center">
-                <form class="myFirstForm">
+                <form onkeypress="onClickLocation('Наши контакты')"" class="myFirstForm telegram" method="POST">
                     <div class="form-title">
                         <span>Остались вопросы?</span>
                         <span>Оставьте контакты</span>
                         <span>Мы перезвоним!</span>
                     </div>
                     <hr>
-                    <input type="text" placeholder="Имя">
-                    <input type="text" placeholder="Телефон">
-                    <button>Отправить</button>
+                    <input name="NAME" type="text" placeholder="Имя">
+                    <input id="input_phone_footer_from_id" name="PHONE" type="text" placeholder="Телефон"
+
+                           onkeyup="onBlurPhoneFooter(value)"
+                           onblur="onChangePhoneFooter(value)"
+                    />
+                    <button id="submit_btn_footer_form_id" disabled>Отправить</button>
                 </form>
             </div>
         </div>

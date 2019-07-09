@@ -13,7 +13,7 @@
                     <div class="card">
                         <div class="number">1</div>
                         <div class="img-container">
-                            <img src="https://gitradik.github.io/stone-houses/assets/images/working/telephone.png" alt="telephone">
+                            <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/telephone.png" alt="telephone">
                         </div>
                         <div class="descr">
                             <span>заявка или звонок</span>
@@ -27,7 +27,7 @@
                     <div class="card">
                         <div class="number">2</div>
                         <div class="img-container">
-                            <img src="https://gitradik.github.io/stone-houses/assets/images/working/pencil.png" alt="pencil">
+                            <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/pencil.png" alt="pencil">
                         </div>
                         <div class="descr">
                             <span>выезд. замер и расчёт</span>
@@ -41,7 +41,7 @@
                     <div class="card">
                         <div class="number">3</div>
                         <div class="img-container">
-                            <img src="https://gitradik.github.io/stone-houses/assets/images/working/edit.png" alt="edit">
+                            <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/edit.png" alt="edit">
                         </div>
                         <div class="descr">
                             <span>договор и поставка</span>
@@ -55,7 +55,7 @@
                     <div class="card">
                         <div class="number">4</div>
                         <div class="img-container">
-                            <img src="https://gitradik.github.io/stone-houses/assets/images/working/brickwall.png" alt="brickwall">
+                            <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/images/working/brickwall.png" alt="brickwall">
                         </div>
                         <div class="descr">
                             <span>строительные работы</span>
@@ -74,7 +74,7 @@
                 <div class="card">
                     <div class="number">5</div>
                     <div class="img-container">
-                        <img src="https://gitradik.github.io/stone-houses/assets/images/working/handshake.png" alt="handshake">
+                        <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/working/handshake.png" alt="handshake">
                     </div>
                     <div class="descr">
                         <span>восторг</span>

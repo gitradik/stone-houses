@@ -112,6 +112,10 @@ footer .myFirstForm input:focus {
   transition: 0.15s;
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
 }
+footer .myFirstForm .invalid-phone {
+  transition: 0.15s;
+  border-color: red;
+}
 footer .myFirstForm button {
   position: relative;
   display: block;

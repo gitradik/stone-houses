@@ -12,7 +12,7 @@
             </div>
             <div class="col col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="card">
-                    <img src="https://gitradik.github.io/stone-houses/assets/images/advantages/tracking.png" alt="tracking">
+                    <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/advantages/tracking.png" alt="tracking">
                     <div class="my-text">
                         <span>
                               Бесплатный выезд на объект
@@ -25,7 +25,7 @@
             </div>
             <div class="col col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="card">
-                    <img src="https://gitradik.github.io/stone-houses/assets/images/advantages/saw.png" alt="saw">
+                    <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/advantages/saw.png" alt="saw">
                     <div class="my-text">
                         <span>
                             Профессиональный инструмент
@@ -38,7 +38,7 @@
             </div>
             <div class="col col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="card">
-                    <img src="https://gitradik.github.io/stone-houses/assets/images/advantages/certificate.png" alt="certificate">
+                    <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/advantages/certificate.png" alt="certificate">
                     <div class="my-text">
                         <span>
                            Качество и гарантии
@@ -51,7 +51,7 @@
             </div>
             <div class="col col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="card">
-                    <img src="https://gitradik.github.io/stone-houses/assets/images/advantages/setting.png" alt="setting">
+                    <img src="<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/advantages/setting.png" alt="setting">
                     <div class="my-text">
                         <span>
                           Полный цикл постройки

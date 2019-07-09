@@ -12,7 +12,7 @@
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 pb-2">
                 <div class="card">
                     <div class="img-container"
-                         style="background-image: url('https://gitradik.github.io/stone-houses/assets/images/construction-time/1.jpg')"
+                         style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/construction-time/1.jpg')"
                     ></div>
                     <div class="desc desc-min">
 
@@ -25,7 +25,7 @@
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 pb-2">
                 <div class="card">
                     <div class="img-container"
-                         style="background-image: url('https://gitradik.github.io/stone-houses/assets/images/construction-time/3.jpg')"
+                         style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/construction-time/3.jpg')"
                     ></div>
                     <div class="desc desc-min">
                        <span> Строительство дома под чистовую отделку</span>
@@ -36,7 +36,7 @@
             <div class="col-sm-12 mt-sm-10 col-md-4 col-lg-4 col-xl-2 pb-2">
                 <div class="card mh-auto">
                     <div class="img-container"
-                         style="background-image: url('https://gitradik.github.io/stone-houses/assets/images/construction-time/2.png')"
+                         style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction//assets/images/construction-time/2.png')"
                     ></div>
                     <div class="desc desc-min">
                         <span> Строительство коробки дома</span>
@@ -51,7 +51,7 @@
 
                     <div class="card border-bottom-0">
                         <div class="img-container"
-                             style="background-image: url('https://gitradik.github.io/stone-houses/assets/images/construction-time/main.png')"
+                             style="background-image: url('<?php echo get_template_directory_uri() ?>/turnkey-construction/assets/images/construction-time/main.png')"
                         ></div>
                         <div class="desc">
                             Строительство дома "Под ключ"
@@ -66,7 +66,12 @@
 
                             керамических блоков и газобетона</h4>
                         <h6>Получить консультацию на объекте:</h6>
-                        <button>ПОЛУЧИТЬ</button>
+                        <button onblur="onClickLocation('Ориентировочные сроки по строительству дома 150 - 250 м2')"
+                                onclick="setTitleModalForm('Ориентировочные сроки по строительству дома 150 - 250 м2')"
+                                data-toggle="modal"
+                                data-target="#formModal">
+                            ПОЛУЧИТЬ
+                        </button>
                     </div>
 
                 </div>

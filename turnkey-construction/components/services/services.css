@@ -6,20 +6,21 @@
 .services .btns {
   padding-top: 40px;
 }
-.services .btns a {
+.services .btns button {
   color: #414042;
   padding: 13px 30px;
+  background-color: white;
   border: 2px solid #414042;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
   transition: 0.15s;
 }
-.services .btns a:hover {
+.services .btns button:hover {
   text-decoration: none;
   transition: 0.15s;
   background-color: #414042;
   color: white;
 }
-.services .btns a:focus {
+.services .btns button:focus {
   outline: none;
 }
 .services h4 {

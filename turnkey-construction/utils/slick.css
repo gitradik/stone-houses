@@ -1,0 +1,76 @@
+.slick-slider {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.slick-slider .slick-dots li button:before {
+  top: -33px;
+  border-radius: 100%;
+  font-size: 12px;
+  transition: 0.2s;
+  color: #11fff9;
+  box-shadow: 0 0 1px 0 #65edea;
+}
+.slick-slider .slick-dots .slick-active {
+  transition: 0.2s;
+}
+.slick-slider .arrow-slider {
+  outline: none;
+  width: 12%;
+  position: absolute;
+  border: none;
+  top: 0;
+  bottom: 0;
+  transition: 0.2s;
+  background: rgba(0, 0, 0, 0.1);
+}
+.slick-slider .arrow-slider i {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+}
+.slick-slider .arrow-slider:hover {
+  transition: 0.2s;
+  background: rgba(0, 0, 0, 0.3);
+}
+.slick-slider .arrow-slider:hover i {
+  transition: 0.2s;
+  color: white;
+}
+.slick-slider .prev-arrow {
+  left: 0;
+  z-index: 20;
+}
+.slick-slider .next-arrow {
+  right: 0;
+  z-index: 20;
+}
+.slick-slider .slick-list {
+  display: flex;
+  width: 100%;
+}
+.slick-slider .slick-list .slick-track {
+  display: flex;
+  width: 100%;
+}
+.slick-slider .slick-list .slick-track .slick-slide {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+.slick-slider .my-slick-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-width: 100%;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .slick-slider .slick-list .slick-track .slick-slide .my-slick-item {
+    min-height: 300px;
+  }
+}
+
+/*# sourceMappingURL=slick.css.map */
