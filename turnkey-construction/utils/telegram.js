@@ -14,5 +14,11 @@ $('.telegram').submit(function(e){
         data: $(this).serialize()
     }).done(function(){
         window.location = 'done';
+        if(loader) {
+            loader.classList.add('d-none');
+        }
+        if(loaderFormModal) {
+            loaderFormModal.add.remove('d-none');
+        }
     });
 });

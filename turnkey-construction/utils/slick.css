@@ -16,6 +16,7 @@
   transition: 0.2s;
 }
 .slick-slider .arrow-slider {
+  cursor: pointer;
   outline: none;
   width: 12%;
   position: absolute;
